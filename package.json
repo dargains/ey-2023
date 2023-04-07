@@ -1,0 +1,19 @@
+{
+  "name": "ey-2023",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dargains/ey-2023.git"
+  },
+  "author": "Graffito",
+  "license": "ISC",
+  "dependencies": {}
+}
