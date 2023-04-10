@@ -46,12 +46,22 @@
         </div>
         <div class="quizCard__hiddenCard" :class="{'quizCard__hiddenCard--show': showHiddenCard}">
           <div class="quizCard__hiddenCardWrapper">
-            <h2 class="quizCard__hiddenCardTitle">Tem certeza que deseja sair?</h2>
-            <p class="quizCard__hiddenCardText">Ao sair do inquérito todas as respostas enviadas até o momento serão perdidas.</p>
-            <p class="quizCard__hiddenCardText">Para ter acesso ao diagnóstico será necessário inicar o inquérito novamente.</p>
+            <h2 class="quizCard__hiddenCardTitle">
+              Tem certeza que deseja sair?
+            </h2>
+            <p class="quizCard__hiddenCardText">
+              Ao sair do inquérito todas as respostas enviadas até o momento serão perdidas.
+            </p>
+            <p class="quizCard__hiddenCardText">
+              Para ter acesso ao diagnóstico será necessário inicar o inquérito novamente.
+            </p>
             <div class="buttonContainer">
-              <a class="button button--primary" href="index.html">Sair do inquérito</a>
-              <button class="button button--primary" @click="handleHideHiddenCard">voltar ao inquérito</button>
+              <a class="button button--primary" href="index.html">
+                Sair do inquérito
+              </a>
+              <button class="button button--primary" @click="handleHideHiddenCard">
+                voltar ao inquérito
+              </button>
             </div>
           </div>
         </div>

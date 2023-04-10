@@ -58,7 +58,7 @@ createApp({
     handleFinishQuiz() {
       const answers = this.questions.map(question => question.answered)
       const result = answers.reduce((a, b) => a + b) / this.questions.length
-      console.log(result)
+      window.location.href = 'resultado.html?result='+result
     },
     handleShowHiddenCard() {
       console.log('object');
