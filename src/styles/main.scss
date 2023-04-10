@@ -1,5 +1,12 @@
-$color: red;
+@import "foundations/reset";
+@import "foundations/fonts";
+@import "foundations/colours";
 
-p {
-  color: $color;
+@import "grid";
+@import "quizContainer";
+@import "quizCard";
+
+body {
+  background-color: gray;
+
 }

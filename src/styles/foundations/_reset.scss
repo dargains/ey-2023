@@ -126,7 +126,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -134,45 +134,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 16px;
-}
-
-.quizContainer {
-  min-height: 100vh;
-}
-
-.quizCard {
-  background-color: white;
-  grid-column: 2/12;
-  align-self: center;
-  height: 80vh;
-  padding: 40px;
-}
-.quizCard__header {
-  background-color: red;
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-.quizCard__number {
-  font-size: 40px;
-  right: 30px;
-  font-weight: bold;
-}
-.quizCard__title {
-  font-size: 24px;
-  color: white;
-}
-.quizCard__pagination {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-
-body {
-  background-color: gray;
-}/*# sourceMappingURL=main.css.map */
