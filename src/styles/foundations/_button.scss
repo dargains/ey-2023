@@ -1,0 +1,39 @@
+.button {
+  padding: 16px 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $primary-color;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 18px;
+  transition: all .2s ease-in-out;
+
+  &--primary {
+    background-color: $white;
+    border: 3px solid $primary-color;
+    color: $primary-color;
+    &:hover {
+      color: $white;
+      background-color: $primary-color;
+    }
+  }
+
+  &--secondary {
+
+  }
+
+  &--disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}

@@ -92,17 +92,6 @@ video {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: currentColor;
-}
-
-button {
-  border: 0;
-  background-color: transparent;
-  padding: 0;
-}
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -137,7 +126,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -145,3 +134,21 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.button {
+  padding: 16px 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+}/*# sourceMappingURL=index.css.map */

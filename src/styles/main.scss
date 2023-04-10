@@ -1,12 +1,11 @@
-@import "foundations/reset";
-@import "foundations/fonts";
-@import "foundations/colours";
-
-@import "grid";
-@import "quizContainer";
-@import "quizCard";
+@import "variables";
+@import "foundations";
+@import "components/checkbox";
+@import "components/quizContainer";
+@import "components/quizCard";
 
 body {
   background-color: gray;
-
+  color: $gray;
+  font-family: sans-serif;
 }

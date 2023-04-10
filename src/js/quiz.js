@@ -33,6 +33,7 @@ createApp({
         },
       ],
       activeQuestion: 0,
+      showHiddenCard: false
     }
   },
   computed: {
@@ -58,6 +59,13 @@ createApp({
       const answers = this.questions.map(question => question.answered)
       const result = answers.reduce((a, b) => a + b) / this.questions.length
       console.log(result)
-    }
+    },
+    handleShowHiddenCard() {
+      console.log('object');
+      this.showHiddenCard = true
+    },
+    handleHideHiddenCard() {
+      this.showHiddenCard = false
+    },
   }
 }).mount('#quiz')
