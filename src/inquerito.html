@@ -10,21 +10,31 @@
 </head>
 
 <body>
-  <h1>Inquerito</h1>
   <div id="app">
-    <div>
-      <h2>{{questions[activeQuestion].title}}</h2>
-      <li v-for="(answer, aindex) in questions[activeQuestion].answers" :key="answer">
-        <label :for="`answer${activeQuestion}${aindex}`">{{answer}}</label>
-        <input type="radio" :name="`answer${activeQuestion}`" :id="`answer${activeQuestion}${aindex}`"
-          v-model="questions[activeQuestion].answered" :value="aindex + 1">
-      </li>
-      <button @click="handleGoBack" v-if="activeQuestion">voltar</button>
-      <button @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1"
-        :disabled="!questions[activeQuestion].answered">Terminar inquérito</button>
-      <button @click="handleGoForward" v-else :disabled="!questions[activeQuestion].answered">avançar</button>
+    <div class="quizContainer grid">
+      <h1>Inquerito</h1>
+      <div class="quizCard">
+        <header class="quizCard__header">
+          <span class="quizCard__number">{{activeQuestion + 1}}</span>
+          <h3 class="quizCard__title">{{questions[activeQuestion].title}}</h3>
+        </header>
+        <ul class="quizCard__answerList">
+          <li class="quizCard__answer" v-for="(answer, aindex) in questions[activeQuestion].answers" :key="answer">
+            <label :for="`answer${activeQuestion}${aindex}`">{{answer}}</label>
+            <input type="radio" :name="`answer${activeQuestion}`" :id="`answer${activeQuestion}${aindex}`"
+              v-model="questions[activeQuestion].answered" :value="aindex + 1">
+          </li>
+        </ul>
+        <button class="button button--back" @click="handleGoBack" v-if="activeQuestion">voltar</button>
+        <button class="button button--primary" @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1"
+          :disabled="!questions[activeQuestion].answered">Terminar inquérito</button>
+        <button class="button button--primary" @click="handleGoForward" v-else
+          :disabled="!questions[activeQuestion].answered">avançar</button>
+        <div class="quizCard__pagination">
+          <span>{{activeQuestion + 1}}/{{questions.length}}</span>
+        </div>
+      </div>
     </div>
-    <p v-for="question in questions">{{question.answered}}</p>
   </div>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="./js/app.js"></script>
