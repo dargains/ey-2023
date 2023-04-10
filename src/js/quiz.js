@@ -58,7 +58,17 @@ createApp({
     handleFinishQuiz() {
       const answers = this.questions.map(question => question.answered)
       const result = answers.reduce((a, b) => a + b) / this.questions.length
-      window.location.href = 'resultado.html?result='+result
+      let level = ""
+      const firstThreshold = 1.6
+      const secondThreshold = 2.3
+      if (result <= firstThreshold) {
+        level = 1
+      } else if (result > firstThreshold && result <= secondThreshold) {
+        level = 2
+      } else {
+        level = 3
+      }
+      window.location.href = 'resultado.html?result=' + level
     },
     handleShowHiddenCard() {
       console.log('object');
