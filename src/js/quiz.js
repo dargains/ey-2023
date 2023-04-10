@@ -3,7 +3,6 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      message: 'Hello Vue!',
       questions: [
         {
           title: 'Pergunta 1',
@@ -36,6 +35,14 @@ createApp({
       activeQuestion: 0,
     }
   },
+  computed: {
+    currentQuestion() {
+      return this.activeQuestion + 1 > 9 || "0" + (this.activeQuestion + 1)
+    },
+    totalQuestions() {
+      return this.questions.length > 9 || "0" + this.questions.length
+    }
+  },
   methods: {
     handleGoBack() {
       if (this.activeQuestion > 0) {
@@ -53,4 +60,4 @@ createApp({
       console.log(result)
     }
   }
-}).mount('#app')
+}).mount('#quiz')
