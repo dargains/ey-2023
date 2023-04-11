@@ -234,9 +234,8 @@ table {
   width: 24px;
 }
 .checkbox__label::after {
-  content: url("../../assets/images/check.svg");
+  content: url("../../src/assets/images/check.svg");
   background-size: contain;
-  background-color: red;
   transform: scale(0.5);
   opacity: 0;
   width: 34px;
