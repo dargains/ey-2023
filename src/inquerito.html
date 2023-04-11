@@ -16,12 +16,12 @@
         <div class="wrapper">
           <a href="https://pbs.up.pt" target="_blank">
             <figure class="header__logoLeft">
-              <img src="assets/logo_pbs.svg" alt="Porto Business School">
+              <img src="assets/images/logo_pbs.svg" alt="Porto Business School">
             </figure>
           </a>
           <a href="https://www.portodigital.pt/" target="_blank">
             <figure class="header__logoRight">
-              <img src="assets/logo_apd.svg" alt="Associação Porto Digital">
+              <img src="assets/images/logo_apd.svg" alt="Associação Porto Digital">
             </figure>
           </a>
         </div>
@@ -61,6 +61,8 @@
               </div>
             </footer>
           </div>
+
+          <!-- card saída -->
           <div class="quizCard__hiddenCard" :class="{'quizCard__hiddenCard--show': showHiddenCard}">
             <div class="quizCard__hiddenCardWrapper">
               <h2 class="quizCard__hiddenCardTitle">
@@ -76,12 +78,13 @@
                 <a class="button button--primary" href="index.html">
                   Sair do inquérito
                 </a>
-                <button class="button button--primary" @click="handleHideHiddenCard">
+                <button class="button button--secondary" @click="handleHideHiddenCard">
                   voltar ao inquérito
                 </button>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
