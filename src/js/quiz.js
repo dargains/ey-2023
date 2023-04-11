@@ -5,11 +5,11 @@ createApp({
     return {
       questions: [
         {
-          title: 'Pergunta 1',
+          title: 'Qual o estágio de desenvolvimento do produto/serviço?',
           answers: [
-            'resposta 1',
-            'resposta 2',
-            'resposta 3'
+            'Não existe, é ainda uma ideia',
+            'Existe, mas encontra-se ainda em desenvolvimento',
+            'Pronto a ser comercializado'
           ],
           answered: null
         },

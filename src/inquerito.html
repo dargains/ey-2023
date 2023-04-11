@@ -28,7 +28,9 @@
       </header>
       <div class="quizContainer grid">
         <div class="quizCard">
-          <button class="quizCard__closeButton" @click="handleShowHiddenCard">X</button>
+          <button class="quizCard__closeButton" @click="handleShowHiddenCard">
+            <img src="assets/images/close_icon.svg" alt="Fechar">
+          </button>
           <div class="quizCard__wrapper">
             <header class="quizCard__header">
               <span class="quizCard__number">{{currentQuestion}}</span>
@@ -45,8 +47,11 @@
               </li>
             </ul>
             <footer class="quizCard__footer">
-              <button class="button button--back" @click="handleGoBack" v-if="activeQuestion">
-                voltar
+              <button class="button--back" @click="handleGoBack" v-if="activeQuestion">
+                <img src="assets/images/double_arrow_icon.svg" alt="voltar">
+                <span>
+                  voltar
+                </span>
               </button>
               <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
                 @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1">

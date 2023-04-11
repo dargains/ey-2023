@@ -1,5 +1,5 @@
 .button {
-  padding: 0 40px;
+  padding: 0 56px;
   height: 56px;
   border-radius: 100px;
   display: flex;
@@ -8,7 +8,7 @@
   text-transform: uppercase;
   color: $primary-color;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   transition: all .2s ease-in-out;
 
   &--primary {
@@ -32,6 +32,17 @@
     opacity: .5;
     pointer-events: none;
   }
+}
+
+.button--back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: $primary-color;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 12px;
 }
 
 .buttonContainer {
