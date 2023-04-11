@@ -254,15 +254,20 @@ table {
 }
 
 .quizContainer {
-  min-height: 100vh;
+  min-height: calc(100vh - 108px);
+  padding: 80px 0;
+  background-image: url("../../src/assets/images/quiz_background.jpg");
 }
 
 .quizCard {
   background-color: #fff;
   grid-column: 2/12;
   align-self: center;
-  height: 60vh;
+  min-height: 70%;
   padding: 48px 112px;
+  box-shadow: 10px 19px 20px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
 }
 .quizCard__closeButton {
   color: #6450FC;
@@ -272,8 +277,11 @@ table {
   cursor: pointer;
 }
 .quizCard__wrapper {
-  height: 100%;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .quizCard__header {
   background-color: #6450FC;
@@ -299,16 +307,15 @@ table {
   gap: 24px;
   width: 80%;
   margin: 40px auto;
+  flex: 1;
 }
 .quizCard__answer {
   font-size: 24px;
+  line-height: 30px;
 }
 .quizCard__footer {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
   display: grid;
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 120px 1fr 120px;
 }
 .quizCard__footer .button--back {
   grid-column: 1/2;
@@ -326,10 +333,8 @@ table {
   align-self: end;
 }
 .quizCard__pagination {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
   color: #6450FC;
+  font-size: 20px;
 }
 .quizCard__hiddenCard {
   opacity: 0;

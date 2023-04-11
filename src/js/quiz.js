@@ -14,11 +14,11 @@ createApp({
           answered: null
         },
         {
-          title: 'Pergunta 2',
+          title: 'De que forma se encontra determinada a dimensão potencial do mercado que se pretende alcançar?',
           answers: [
-            'resposta 1',
-            'resposta 2',
-            'resposta 3'
+            'Equipa composta por elementos com experiência técnica, de negócio e marketing (3 áreas de expertise, pelo menos)',
+            'A equipa detém uma visão alinhada sobre o desenvolvimento do projeto e compreende os riscos e recompensas inerentes',
+            'O capital está a ser utilizado para desenvolver o produto, contratar uma equipa e escalar operações, numa lógica estrutural'
           ],
           answered: null
         },
