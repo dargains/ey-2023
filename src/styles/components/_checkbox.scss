@@ -3,18 +3,26 @@
     display: flex;
     gap: 16px;
   }
-  
+
   &__input {
     display: none;
-    &:checked + .checkbox__label {
+
+    &:checked+.checkbox__label {
       &::before {
         background-color: $primary-color;
+      }
+
+      &::after {
+        transform: scale(1);
+        opacity: 1;
       }
     }
   }
 
   &__label {
     padding: 8px 0 8px 80px;
+    cursor: pointer;
+
     &::before,
     &::after {
       content: '';
@@ -24,10 +32,21 @@
       top: 6px;
       transition: all .2s ease-in-out;
     }
+
     &::before {
       border: 2px solid $primary-color;
       height: 24px;
       width: 24px;
+    }
+
+    &::after {
+      content: url("../../assets/images/check.svg");
+      background-size: contain;
+      background-color: red;
+      transform: scale(.5);
+      opacity: 0;
+      width: 34px;
+      height: 24px;
     }
   }
 

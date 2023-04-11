@@ -147,7 +147,8 @@ table {
 }
 
 .button {
-  padding: 16px 40px;
+  padding: 0 40px;
+  height: 56px;
   border-radius: 100px;
   display: flex;
   align-items: center;
@@ -155,7 +156,6 @@ table {
   text-transform: uppercase;
   color: #6450FC;
   cursor: pointer;
-  font-family: sans-serif;
   font-size: 18px;
   transition: all 0.2s ease-in-out;
 }
@@ -167,6 +167,11 @@ table {
 .button--primary:hover {
   color: #fff;
   background-color: #6450FC;
+}
+.button--secondary {
+  background-color: #6450FC;
+  color: #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .button--disabled {
   opacity: 0.5;
@@ -207,8 +212,13 @@ table {
 .checkbox__input:checked + .checkbox__label::before {
   background-color: #6450FC;
 }
+.checkbox__input:checked + .checkbox__label::after {
+  transform: scale(1);
+  opacity: 1;
+}
 .checkbox__label {
   padding: 8px 0 8px 80px;
+  cursor: pointer;
 }
 .checkbox__label::before, .checkbox__label::after {
   content: "";
@@ -222,6 +232,15 @@ table {
   border: 2px solid #6450FC;
   height: 24px;
   width: 24px;
+}
+.checkbox__label::after {
+  content: url("../../assets/images/check.svg");
+  background-size: contain;
+  background-color: red;
+  transform: scale(0.5);
+  opacity: 0;
+  width: 34px;
+  height: 24px;
 }
 
 .quizContainer {
@@ -344,7 +363,7 @@ table {
 body {
   background-color: gray;
   color: #646464;
-  font-family: sans-serif;
+  font-family: Radikal;
 }
 
 .wrapper {

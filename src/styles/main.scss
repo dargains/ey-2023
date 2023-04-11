@@ -1,11 +1,24 @@
-@import "variables";
-@import "foundations";
-@import "components";
+// variables
+@import "variables/colours";
+
+// foundations
+@import "foundations/reset";
+@import "foundations/button";
+@import "foundations/grid";
+
+// components
+@import "components/header";
+@import "components/checkbox";
+@import "components/quizContainer";
+@import "components/quizCard";
+@import "components/hero";
+@import "components/ctaBar";
+
 
 body {
   background-color: gray;
   color: $gray;
-  font-family: sans-serif;
+  font-family: Radikal;
 }
 
 .wrapper {
