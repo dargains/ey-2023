@@ -33,7 +33,7 @@ createApp({
         },
       ],
       activeQuestion: 0,
-      showHiddenCard: false
+      showHiddenCard: false,
     }
   },
   computed: {
@@ -43,6 +43,9 @@ createApp({
     totalQuestions() {
       return this.questions.length > 9 || "0" + this.questions.length
     }
+  },
+  mounted() {
+    this.$el.classList.remove("hiddenPage")
   },
   methods: {
     handleGoBack() {

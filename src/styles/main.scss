@@ -3,9 +3,21 @@
 @import "components/checkbox";
 @import "components/quizContainer";
 @import "components/quizCard";
+@import "components/hero";
+@import "components/ctaBar";
 
 body {
   background-color: gray;
   color: $gray;
   font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+.hiddenPage {
+  opacity: 0;
 }

@@ -3,7 +3,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      level: ''
+      level: '',
     }
   },
   created() {
@@ -18,6 +18,9 @@ createApp({
           return 'elevado'
       }
     })()
+  },
+  mounted() {
+    this.$el.classList.remove("hiddenPage")
   },
   computed: {
 

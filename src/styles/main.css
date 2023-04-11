@@ -326,8 +326,22 @@ table {
   margin-top: 40px;
 }
 
+.ctaBar {
+  display: flex;
+  align-items: center;
+}
 body {
   background-color: gray;
   color: #646464;
   font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+.hiddenPage {
+  opacity: 0;
 }/*# sourceMappingURL=main.css.map */
