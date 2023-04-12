@@ -15,6 +15,8 @@
 @import "components/hero";
 @import "components/ctaBar";
 @import "components/resultsHero";
+@import "components/contentGroup";
+@import "components/contentItem";
 
 
 body {
@@ -24,7 +26,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 56px;
 }
