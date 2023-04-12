@@ -452,7 +452,7 @@ table {
 }
 
 .contentItem--expanded .contentItem__image {
-  right: 0;
+  transform: scale(100%);
 }
 .contentItem--expanded .contentItem__arrowButton {
   transform: rotate(180deg);
@@ -464,15 +464,19 @@ table {
   display: grid;
   grid-template-columns: 545px 1fr 100px;
   align-items: end;
+  overflow: hidden;
 }
 .contentItem__image {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
   height: 100%;
   transition: all 0.5s ease-in-out;
   z-index: 1;
+  transform-origin: top left;
+  transform: scale(41%);
 }
 .contentItem__image img {
   -o-object-fit: cover;
@@ -482,6 +486,7 @@ table {
 .contentItem__title {
   color: #fff;
   font-size: 88px;
+  font-size: calc(100% + 4vw);
   line-height: 110px;
   font-weight: bold;
   z-index: 1;
