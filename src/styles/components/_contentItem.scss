@@ -1,4 +1,15 @@
 .contentItem {
+
+  &--expanded {
+    .contentItem__image {
+      right: 0;
+    }
+
+    .contentItem__arrowButton {
+      transform: rotate(180deg);
+    }
+  }
+
   &__header {
     background-color: $white;
     height: 220px;
@@ -21,10 +32,6 @@
       object-fit: cover;
       width: 100%;
     }
-
-    &--expanded {
-      right: 0;
-    }
   }
 
   &__title {
@@ -44,8 +51,10 @@
 
   &__arrowButton {
     z-index: 1;
-    padding-bottom: 32px;
+    bottom: 32px;
+    justify-self: center;
     cursor: pointer;
+    transition: all .2s ease-in-out;
   }
 
   &__contentContainer {

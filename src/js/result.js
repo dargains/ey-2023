@@ -18,7 +18,15 @@ createApp({
             image: "assets/images/inicial_hero.jpg"
           }
         }
-      ]
+      ],
+      content: [
+        {
+          title: "Multimédia",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        }
+      ],
+      activeContent: undefined,
     }
   },
   created() {
@@ -37,6 +45,17 @@ createApp({
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
+    this.slider = new Swiper('.swiper', {
+      slidesPerView: 4,
+      spaceBetween: 8,
+      loop: true,
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   },
   computed: {
     selectedCopy() {
@@ -44,6 +63,12 @@ createApp({
     }
   },
   methods: {
-    
+    handleToggle(index) {
+      if (this.activeContent === index) {
+        this.activeContent = undefined
+      } else {
+        this.activeContent = index
+      }
+    }
   }
 }).mount('#result')

@@ -1,0 +1,50 @@
+:root {
+  --swiper-navigation-sides-offset: 5%;
+}
+
+.swiper {
+  width: 80%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  &::after {
+    display: none;
+  }
+}
+
+.swiper-button-prev {
+  transform: rotate(180deg);
+}
+
+.swiper-wrapper {
+  // padding: 16px;
+
+}
+
+.slide {
+  font-size: 24px;
+  line-height: 30px;
+  padding: 12px;
+
+  &__container {
+    background: #F8F8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 12px;
+
+  }
+
+  &__image {
+    margin-bottom: 8px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__author {}
+}
