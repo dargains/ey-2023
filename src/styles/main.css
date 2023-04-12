@@ -255,6 +255,23 @@ table {
   height: 24px;
 }
 
+.downArrow {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.downArrow__faded {
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+.downArrow__solid {
+  top: -20px;
+}
+
+@keyframes bounce {
+  to {
+    transform: translate3d(0, -18px, 0);
+  }
+}
 .quizContainer {
   min-height: calc(100vh - 108px);
   padding: 80px 0;
@@ -397,6 +414,7 @@ table {
 }
 .resultsHero__title {
   font-size: 56px;
+  line-height: 72px;
   margin-bottom: 40px;
   font-weight: bold;
 }
@@ -420,6 +438,12 @@ table {
   position: absolute;
   right: -104px;
   top: 48px;
+}
+.resultsHero .downArrow {
+  position: absolute;
+  bottom: -148px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 body {

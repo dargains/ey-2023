@@ -16,6 +16,7 @@
 
   &__title {
     font-size: 56px;
+    line-height: 72px;
     margin-bottom: 40px;
     font-weight: bold;
   }
@@ -42,5 +43,12 @@
     position: absolute;
     right: -104px;
     top: 48px;
+  }
+
+  .downArrow {
+    position: absolute;
+    bottom: -148px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
