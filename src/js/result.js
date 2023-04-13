@@ -17,6 +17,34 @@ createApp({
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
             image: "assets/images/inicial_hero.jpg"
           }
+        },
+        {
+          level: "médio",
+          hero: {
+            topText: "Uma vez implementados os pilares basilares da sua empresa, é o momento para investir na estratégia de marketing e na forma como poderá aumentar o alcance do seu produto/serviço. Deve explorar os seguintes atributos:",
+            bullets: [
+              "Gerar/incrementar o volume de vendas;",
+              "Aumentar o financiamento captado;",
+              "Criar um portfólio de clientes;",
+              "Investir na estrutura e recursos afetos ao projeto",
+            ],
+            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
+            image: "assets/images/inicial_hero.jpg"
+          }
+        },
+        {
+          level: "elevado",
+          hero: {
+            topText: "Após a superação dos principais desafios iniciais ao desenvolvimento do seu produto/serviço, a sua start-up encontra-se pronta para dar o próximo passo: escalar para o nível seguinte. Deve explorar os seguintes atributos:",
+            bullets: [
+              "Direcionar a sua estratégia para o crescimento;",
+              "Expandir a distribuição e internacionalizar o produto/serviço;",
+              "Aumentar a capacidade financeira e de operações;",
+              "Escalar os diferentes departamentos existentes.",
+            ],
+            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
+            image: "assets/images/inicial_hero.jpg"
+          }
         }
       ],
       content: [
@@ -28,45 +56,47 @@ createApp({
         {
           title: "Livros",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
-          image: "assets/images/content_multimedia.jpg"
+          image: "assets/images/content_books.jpg"
         },
         {
           title: "Guias",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
-          image: "assets/images/content_multimedia.jpg"
+          image: "assets/images/content_guides.jpg"
         },
         {
           title: "Funding",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
-          image: "assets/images/content_multimedia.jpg"
+          image: "assets/images/content_funding.jpg"
         },
         {
           title: "Toolkits",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
-          image: "assets/images/content_multimedia.jpg"
+          image: "assets/images/content_toolkits.jpg"
         },
         {
           title: "Cursos",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
-          image: "assets/images/content_multimedia.jpg"
+          image: "assets/images/content_courses.jpg"
         },
       ],
-      activeContent: undefined,
     }
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
-    this.slider = new Swiper('.swiper', {
-      slidesPerView: 4,
-      spaceBetween: 8,
-      loop: true,
+    this.content.forEach(({ title }) => {
+      console.log('.swiper-' + title)
+      new Swiper('.swiper-' + title, {
+        slidesPerView: 4,
+        spaceBetween: 8,
+        loop: true,
 
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next-' + title,
+          prevEl: '.swiper-button-prev-' + title,
+        },
+      });
+    })
   },
   computed: {
     level() {

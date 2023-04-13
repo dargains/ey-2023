@@ -78,13 +78,13 @@
               <p class="contentItem__description">
                 {{item.description}}
               </p>
-              <button class="contentItem__arrowButton" @click="handleToggle">
+              <button class="contentItem__arrowButton">
                 <img src="assets/images/down_arrow_solid_icon.svg" alt="abrir conteúdo">
               </button>
             </header>
             <div class="contentItem__contentContainer">
               <div class="contentItem__slider">
-                <div class="swiper">
+                <div class="swiper" :class="`swiper-${item.title}`">
                   <div class="swiper-wrapper">
                     <div class="slide swiper-slide">
                       <div class="slide__container">
@@ -92,7 +92,7 @@
                           <img src="assets/images/livro1.jpg" alt="">
                         </figure>
                         <p class="slide__title">
-                          Título
+                          Título1
                         </p>
                         <p class="slide__author">
                           Nome autor
@@ -105,7 +105,7 @@
                           <img src="assets/images/livro1.jpg" alt="">
                         </figure>
                         <p class="slide__title">
-                          Título
+                          Título2
                         </p>
                         <p class="slide__author">
                           Nome autor
@@ -118,7 +118,7 @@
                           <img src="assets/images/livro1.jpg" alt="">
                         </figure>
                         <p class="slide__title">
-                          Título
+                          Título3
                         </p>
                         <p class="slide__author">
                           Nome autor
@@ -131,7 +131,7 @@
                           <img src="assets/images/livro1.jpg" alt="">
                         </figure>
                         <p class="slide__title">
-                          Título
+                          Título4
                         </p>
                         <p class="slide__author">
                           Nome autor
@@ -144,7 +144,20 @@
                           <img src="assets/images/livro1.jpg" alt="">
                         </figure>
                         <p class="slide__title">
-                          Título
+                          Título5
+                        </p>
+                        <p class="slide__author">
+                          Nome autor
+                        </p>
+                      </div>
+                    </div>
+                    <div class="slide swiper-slide">
+                      <div class="slide__container">
+                        <figure class="slide__image">
+                          <img src="assets/images/livro1.jpg" alt="">
+                        </figure>
+                        <p class="slide__title">
+                          Título6
                         </p>
                         <p class="slide__author">
                           Nome autor
@@ -153,10 +166,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-prev">
+                <div class="swiper-button-prev" :class="`swiper-button-prev-${item.title}`">
                   <img src="assets/images/slider_arrow.svg" alt="slide anterior">
                 </div>
-                <div class="swiper-button-next">
+                <div class="swiper-button-next" :class="`swiper-button-next-${item.title}`">
                   <img src="assets/images/slider_arrow.svg" alt="próximo slide">
                 </div>
               </div>

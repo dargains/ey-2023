@@ -74,7 +74,6 @@ createApp({
       window.location.href = 'resultado.html?result=' + level
     },
     handleShowHiddenCard() {
-      console.log('object');
       this.showHiddenCard = true
     },
     handleHideHiddenCard() {
