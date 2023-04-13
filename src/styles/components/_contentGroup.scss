@@ -1,4 +1,11 @@
 .contentGroup {
   background-color: $lightgray;
   padding: 32px 0;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+  }
 }

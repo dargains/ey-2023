@@ -65,11 +65,11 @@ createApp({
       const firstThreshold = 1.6
       const secondThreshold = 2.3
       if (result <= firstThreshold) {
-        level = 1
+        level = "inicial"
       } else if (result > firstThreshold && result <= secondThreshold) {
-        level = 2
+        level = "médio"
       } else {
-        level = 3
+        level = "elevado"
       }
       window.location.href = 'resultado.html?result=' + level
     },

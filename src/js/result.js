@@ -3,9 +3,9 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      level: '',
       copy: [
         {
+          level: "inicial",
           hero: {
             topText: "Encontra-se, neste momento, na fase inicial do seu percurso enquanto empreendedor. Deve explorar a sua ideia e apostar no seu crescimento, investindo, para o efeito, nos seguintes atributos:",
             bullets: [
@@ -24,24 +24,35 @@ createApp({
           title: "Multimédia",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_multimedia.jpg"
-        }
+        },
+        {
+          title: "Livros",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        },
+        {
+          title: "Guias",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        },
+        {
+          title: "Funding",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        },
+        {
+          title: "Toolkits",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        },
+        {
+          title: "Cursos",
+          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          image: "assets/images/content_multimedia.jpg"
+        },
       ],
       activeContent: undefined,
     }
-  },
-  created() {
-    const level = window.location.search.split('=')[1]
-    this.result = level
-    this.level = (() => {
-      switch (level) {
-        case "1":
-          return 'inicial'
-        case "2":
-          return 'médio'
-        default:
-          return 'elevado'
-      }
-    })()
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
@@ -58,16 +69,20 @@ createApp({
     });
   },
   computed: {
+    level() {
+      return window.location.search.split('=')[1]
+    },
     selectedCopy() {
-      return this.copy[this.result - 1]
-    }
+      return this.copy.find(({ level }) => level === this.level)
+    },
   },
   methods: {
-    handleToggle(index) {
-      if (this.activeContent === index) {
-        this.activeContent = undefined
+    handleToggle(el) {
+      const item = el.target.closest('.contentItem')
+      if (item.classList.contains('contentItem--expanded')) {
+        item.classList.remove('contentItem--expanded')
       } else {
-        this.activeContent = index
+        item.classList.add('contentItem--expanded')
       }
     }
   }

@@ -1,5 +1,4 @@
 .contentItem {
-
   &--expanded {
     .contentItem__image {
       transform: scale(100%);
@@ -7,6 +6,10 @@
 
     .contentItem__arrowButton {
       transform: rotate(180deg);
+    }
+
+    .contentItem__contentContainer {
+      max-height: 500px;
     }
   }
 
@@ -18,6 +21,7 @@
     grid-template-columns: 545px 1fr 100px;
     align-items: end;
     overflow: hidden;
+    cursor: pointer;
   }
 
   &__image {
@@ -27,7 +31,7 @@
     bottom: 0;
     right: 0;
     height: 100%;
-    transition: all .5s ease-in-out;
+    transition: all .4s ease-in-out;
     z-index: 1;
     transform-origin: top left;
     transform: scale(41%);
@@ -63,9 +67,14 @@
   }
 
   &__contentContainer {
-
     background-color: $white;
-    padding: 52px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .4s ease-in-out;
+  }
+
+  &__slider {
+    padding: 52px;
   }
 }
