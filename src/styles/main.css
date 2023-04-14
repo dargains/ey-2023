@@ -346,9 +346,9 @@ table {
 .quizCard__number {
   font-size: 80px;
   right: 30px;
+  top: 8px;
   font-weight: bold;
-  color: #FB50B9;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
 }
 .quizCard__title {
   font-size: 24px;
@@ -439,6 +439,31 @@ table {
   line-height: 60px;
   color: #fff;
   background-color: #6450FC;
+}
+
+.spiralBlock {
+  padding: 80px 0;
+}
+.spiralBlock__block:nth-of-type(1) {
+  background-color: red;
+}
+.spiralBlock__block:nth-of-type(2) {
+  background-color: blue;
+}
+.spiralBlock__block:nth-of-type(3) {
+  background-color: red;
+}
+.spiralBlock__number {
+  color: #FB50B9;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 115px;
+}
+.spiralBlock__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
 }
 
 .resultsHero {

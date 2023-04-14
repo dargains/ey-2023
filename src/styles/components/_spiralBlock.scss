@@ -1,0 +1,26 @@
+.spiralBlock {
+  padding: 80px 0;
+  &__block {
+    &:nth-of-type(1) {
+      background-color: red;
+    }
+    &:nth-of-type(2) {
+      background-color: blue;
+    }
+    &:nth-of-type(3) {
+      background-color: red;
+    }
+  }
+  &__number {
+    color: $secondary-color;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $white
+  }
+} 
