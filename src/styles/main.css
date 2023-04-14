@@ -157,8 +157,10 @@ table {
   color: #6450FC;
   cursor: pointer;
   font-size: 16px;
+  line-height: 22px;
   transition: all 0.2s ease-in-out;
   font-family: Radikal;
+  text-align: center;
 }
 .button--primary {
   background-color: #fff;
@@ -215,6 +217,26 @@ table {
   justify-content: space-between;
 }
 
+.footer {
+  padding: 48px 0;
+  background-color: #9B50D4;
+}
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.footer__leftContainer {
+  color: #fff;
+}
+.footer__text {
+  color: #fff;
+}
+.footer__text--small {
+  font-size: 24px;
+  line-height: 30px;
+}
 .checkbox__container {
   display: flex;
   gap: 16px;
@@ -501,7 +523,7 @@ table {
 .contentItem__label {
   color: #fff;
   font-size: 80px;
-  line-height: 110px;
+  line-height: 104px;
   font-weight: bold;
   z-index: 1;
   padding-left: 32px;
