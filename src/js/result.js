@@ -47,7 +47,7 @@ createApp({
           }
         }
       ],
-      content: [
+      groups: [
         {
           title: "Multimédia",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
@@ -83,14 +83,10 @@ createApp({
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
-    this.content.forEach(({ title }) => {
-      console.log('.swiper-' + title)
+    this.groups.forEach(({ title }) => {
       new Swiper('.swiper-' + title, {
         slidesPerView: 4,
         spaceBetween: 8,
-        loop: true,
-
-        // Navigation arrows
         navigation: {
           nextEl: '.swiper-button-next-' + title,
           prevEl: '.swiper-button-prev-' + title,

@@ -1,7 +1,11 @@
 .contentItem {
   &--expanded {
     .contentItem__image {
-      transform: scale(100%);
+      transform: scaleX(100%);
+    }
+
+    .contentItem__imageBack {
+      transform: scaleX(100%);
     }
 
     .contentItem__arrowButton {
@@ -31,15 +35,20 @@
     bottom: 0;
     right: 0;
     height: 100%;
-    transition: all .4s ease-in-out;
     z-index: 1;
-    transform-origin: top left;
-    transform: scale(41%);
+    transition: all .4s ease;
+    transform-origin: left;
+    transform: scaleX(40%);
+    overflow: hidden;
+  }
 
-    img {
-      object-fit: cover;
-      width: 100%;
-    }
+  &__imageBack {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transform: scaleX(240%);
+    transition: all .4s ease;
+    // transform-origin: top left;
   }
 
   &__title {

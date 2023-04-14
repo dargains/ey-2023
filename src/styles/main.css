@@ -457,7 +457,10 @@ table {
 }
 
 .contentItem--expanded .contentItem__image {
-  transform: scale(100%);
+  transform: scaleX(100%);
+}
+.contentItem--expanded .contentItem__imageBack {
+  transform: scaleX(100%);
 }
 .contentItem--expanded .contentItem__arrowButton {
   transform: rotate(180deg);
@@ -482,15 +485,18 @@ table {
   bottom: 0;
   right: 0;
   height: 100%;
-  transition: all 0.4s ease-in-out;
   z-index: 1;
-  transform-origin: top left;
-  transform: scale(41%);
+  transition: all 0.4s ease;
+  transform-origin: left;
+  transform: scaleX(40%);
+  overflow: hidden;
 }
-.contentItem__image img {
-  -o-object-fit: cover;
-     object-fit: cover;
+.contentItem__imageBack {
+  background-size: cover;
+  height: 100%;
   width: 100%;
+  transform: scaleX(240%);
+  transition: all 0.4s ease;
 }
 .contentItem__title {
   color: #fff;

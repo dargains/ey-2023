@@ -67,10 +67,10 @@
       <!-- contentGroup -->
       <section class="contentGroup">
         <div class="wrapper">
-          <article class="contentItem" v-for="item in content" :key="content.title">
+          <article class="contentItem" v-for="item in groups" :key="item.title">
             <header class="contentItem__header" @click="handleToggle">
               <figure class="contentItem__image">
-                <img :src="item.image" :alt="item.title">
+                <div class="contentItem__imageBack" :style="{'background-image': `url(${item.image})`}"></div>
               </figure>
               <h2 class="contentItem__title">
                 {{item.title}}
