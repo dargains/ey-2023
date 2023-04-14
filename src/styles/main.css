@@ -237,6 +237,18 @@ table {
   font-size: 24px;
   line-height: 30px;
 }
+.footer__text--large {
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.footer .animatedArrow {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: -14px;
+  right: -120px;
+}
+
 .checkbox__container {
   display: flex;
   gap: 16px;
@@ -277,15 +289,15 @@ table {
   height: 24px;
 }
 
-.downArrow {
+.animatedArrow {
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
-.downArrow__faded {
+.animatedArrow__faded {
   animation: bounce 1s ease-in-out infinite alternate;
 }
-.downArrow__border {
+.animatedArrow__border {
   top: -20px;
 }
 
@@ -461,7 +473,7 @@ table {
   right: -104px;
   top: 48px;
 }
-.resultsHero .downArrow {
+.resultsHero .animatedArrow {
   position: absolute;
   bottom: -148px;
   left: 50%;

@@ -12,10 +12,6 @@
     color: $white;
   }
 
-  &__middleContainer {
-
-  }
-
   &__rightContainer {
 
   }
@@ -27,7 +23,16 @@
       line-height: 30px;
     }
     &--large {
-
+      font-size: 38px;
+      line-height: 48px;
+      text-transform: uppercase;
     }
+  }
+
+  .animatedArrow {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: -14px;
+    right: -120px;
   }
 }
