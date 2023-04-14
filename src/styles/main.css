@@ -443,7 +443,6 @@ table {
 
 .resultsHero {
   padding: 48px 80px 128px 0;
-  background-color: #F5F5F5;
 }
 .resultsHero__container {
   background-color: #6450FC;
@@ -490,7 +489,6 @@ table {
 }
 
 .contentGroup {
-  background-color: #F5F5F5;
   padding: 32px 0;
 }
 .contentGroup .wrapper {
@@ -613,7 +611,7 @@ table {
   margin-bottom: 8px;
 }
 body {
-  background-color: gray;
+  background-color: #F5F5F5;
   color: #646464;
   font-family: Radikal;
 }
