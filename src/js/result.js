@@ -157,13 +157,13 @@ createApp({
             title: "The Lean Startup",
             author: "Eric Ries",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/livro1.jpg"
+            image: "assets/images/content/books/livro1.jpg"
           },
           {
             title: "Zero To One - Notes On Start Ups, Or How To Build The Future",
             author: "Blake Masters e Peter Thiel",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/livro1.jpg"
+            image: "assets/images/content/books/livro1.jpg"
           }
         ],
         guides: [
