@@ -466,7 +466,7 @@ table {
   transform: rotate(180deg);
 }
 .contentItem--expanded .contentItem__contentContainer {
-  max-height: 500px;
+  max-height: 600px;
 }
 .contentItem__header {
   background-color: #fff;
@@ -498,10 +498,9 @@ table {
   transform: scaleX(240%);
   transition: all 0.4s ease;
 }
-.contentItem__title {
+.contentItem__label {
   color: #fff;
   font-size: 88px;
-  font-size: calc(100% + 4vw);
   line-height: 110px;
   font-weight: bold;
   z-index: 1;
@@ -548,8 +547,6 @@ table {
 }
 
 .slide {
-  font-size: 24px;
-  line-height: 30px;
   padding: 12px;
 }
 .slide__container {
@@ -559,12 +556,18 @@ table {
 }
 .slide__image {
   margin-bottom: 8px;
+  background-color: #646464;
+  min-height: 280px;
+  min-width: 190px;
 }
 .slide__image img {
   width: 100%;
 }
 .slide__title {
   font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 8px;
 }
 body {
   background-color: gray;

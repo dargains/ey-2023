@@ -13,7 +13,7 @@
     }
 
     .contentItem__contentContainer {
-      max-height: 500px;
+      max-height: 600px;
     }
   }
 
@@ -51,10 +51,9 @@
     // transform-origin: top left;
   }
 
-  &__title {
+  &__label {
     color: $white;
     font-size: 88px;
-    font-size: calc(100% + 4vw);
     line-height: 110px;
     font-weight: bold;
     z-index: 1;

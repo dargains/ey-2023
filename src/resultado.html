@@ -67,16 +67,16 @@
       <!-- contentGroup -->
       <section class="contentGroup">
         <div class="wrapper">
-          <article class="contentItem" v-for="item in groups" :key="item.title">
+          <article class="contentItem" v-for="contentItem in groups" :key="contentItem.id">
             <header class="contentItem__header" @click="handleToggle">
               <figure class="contentItem__image">
-                <div class="contentItem__imageBack" :style="{'background-image': `url(${item.image})`}"></div>
+                <div class="contentItem__imageBack" :style="{'background-image': `url(${contentItem.image})`}"></div>
               </figure>
-              <h2 class="contentItem__title">
-                {{item.title}}
+              <h2 class="contentItem__label">
+                {{contentItem.label}}
               </h2>
               <p class="contentItem__description">
-                {{item.description}}
+                {{contentItem.description}}
               </p>
               <button class="contentItem__arrowButton">
                 <img src="assets/images/down_arrow_solid_icon.svg" alt="abrir conteúdo">
@@ -84,92 +84,27 @@
             </header>
             <div class="contentItem__contentContainer">
               <div class="contentItem__slider">
-                <div class="swiper" :class="`swiper-${item.title}`">
+                <div class="swiper" :class="`swiper-${contentItem.id}`">
                   <div class="swiper-wrapper">
-                    <div class="slide swiper-slide">
+                    <div class="slide swiper-slide" v-for="contentItem in content[contentItem.id]" :key="contentItem.title">
                       <div class="slide__container">
                         <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
+                          <img :src="contentItem.image" :alt="contentItem.title">
                         </figure>
                         <p class="slide__title">
-                          Título1
+                          {{contentItem.title}}
                         </p>
                         <p class="slide__author">
-                          Nome autor
-                        </p>
-                      </div>
-                    </div>
-                    <div class="slide swiper-slide">
-                      <div class="slide__container">
-                        <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
-                        </figure>
-                        <p class="slide__title">
-                          Título2
-                        </p>
-                        <p class="slide__author">
-                          Nome autor
-                        </p>
-                      </div>
-                    </div>
-                    <div class="slide swiper-slide">
-                      <div class="slide__container">
-                        <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
-                        </figure>
-                        <p class="slide__title">
-                          Título3
-                        </p>
-                        <p class="slide__author">
-                          Nome autor
-                        </p>
-                      </div>
-                    </div>
-                    <div class="slide swiper-slide">
-                      <div class="slide__container">
-                        <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
-                        </figure>
-                        <p class="slide__title">
-                          Título4
-                        </p>
-                        <p class="slide__author">
-                          Nome autor
-                        </p>
-                      </div>
-                    </div>
-                    <div class="slide swiper-slide">
-                      <div class="slide__container">
-                        <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
-                        </figure>
-                        <p class="slide__title">
-                          Título5
-                        </p>
-                        <p class="slide__author">
-                          Nome autor
-                        </p>
-                      </div>
-                    </div>
-                    <div class="slide swiper-slide">
-                      <div class="slide__container">
-                        <figure class="slide__image">
-                          <img src="assets/images/livro1.jpg" alt="">
-                        </figure>
-                        <p class="slide__title">
-                          Título6
-                        </p>
-                        <p class="slide__author">
-                          Nome autor
+                          {{contentItem.author}}
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-prev" :class="`swiper-button-prev-${item.title}`">
+                <div class="swiper-button-prev" :class="`swiper-button-prev-${contentItem.id}`">
                   <img src="assets/images/slider_arrow.svg" alt="slide anterior">
                 </div>
-                <div class="swiper-button-next" :class="`swiper-button-next-${item.title}`">
+                <div class="swiper-button-next" :class="`swiper-button-next-${contentItem.id}`">
                   <img src="assets/images/slider_arrow.svg" alt="próximo slide">
                 </div>
               </div>

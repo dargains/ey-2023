@@ -16,6 +16,15 @@ createApp({
             ],
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
             image: "assets/images/inicial_hero.jpg"
+          },
+          content: {
+            books: [
+              "The Lean Startup",
+              "Zero To One - Notes On Start Ups, Or How To Build The Future"
+            ],
+            courses: [
+              "Entrepreneurship 101: Who is Your Customer?"
+            ]
           }
         },
         {
@@ -49,47 +58,80 @@ createApp({
       ],
       groups: [
         {
-          title: "Multimédia",
+          id: "multimedia",
+          label: "Multimédia",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_multimedia.jpg"
         },
         {
-          title: "Livros",
+          id: "books",
+          label: "Livros",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_books.jpg"
         },
         {
-          title: "Guias",
+          id: "guides",
+          label: "Guias",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_guides.jpg"
         },
         {
-          title: "Funding",
+          id: "funding",
+          label: "Funding",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_funding.jpg"
         },
         {
-          title: "Toolkits",
+          id: "toolkits",
+          label: "Toolkits",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_toolkits.jpg"
         },
         {
-          title: "Cursos",
+          id: "courses",
+          label: "Cursos",
           description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
           image: "assets/images/content_courses.jpg"
         },
       ],
+      baseContent: {
+        books: [
+          {
+            title: "The Lean Startup",
+            author: "Eric Ries",
+            url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
+            image: "assets/images/livro1.jpg"
+          },
+          {
+            title: "Zero To One - Notes On Start Ups, Or How To Build The Future",
+            author: "Blake Masters e Peter Thiel",
+            url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
+            image: "assets/images/livro1.jpg"
+          }
+        ],
+        multimedia: [
+          {
+
+          }
+        ],
+        courses: [
+          {
+            title: "Entrepreneurship 101: Who is Your Customer?",
+            author: "Coursera"
+          }
+        ]
+      }
     }
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
-    this.groups.forEach(({ title }) => {
-      new Swiper('.swiper-' + title, {
+    this.groups.forEach(({ id }) => {
+      new Swiper('.swiper-' + id, {
         slidesPerView: 4,
         spaceBetween: 8,
         navigation: {
-          nextEl: '.swiper-button-next-' + title,
-          prevEl: '.swiper-button-prev-' + title,
+          nextEl: '.swiper-button-next-' + id,
+          prevEl: '.swiper-button-prev-' + id,
         },
       });
     })
@@ -101,6 +143,14 @@ createApp({
     selectedCopy() {
       return this.copy.find(({ level }) => level === this.level)
     },
+    content() {
+      const selectedContent = this.selectedCopy.content
+      const result = {}
+      for(group in selectedContent) {
+        result[group] = selectedContent[group].map(((item) => this.baseContent[group].find(copy => copy.title === item)))
+      }
+      return result
+    }
   },
   methods: {
     handleToggle(el) {
