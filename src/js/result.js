@@ -18,9 +18,21 @@ createApp({
             image: "assets/images/inicial_hero.jpg"
           },
           content: {
+            multimedia: [
+              
+            ],
             books: [
               "The Lean Startup",
               "Zero To One - Notes On Start Ups, Or How To Build The Future"
+            ],
+            guides: [
+
+            ],
+            funding: [
+
+            ],
+            toolkits: [
+
             ],
             courses: [
               "Entrepreneurship 101: Who is Your Customer?"
@@ -39,6 +51,26 @@ createApp({
             ],
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
             image: "assets/images/inicial_hero.jpg"
+          },
+          content: {
+            multimedia: [
+              
+            ],
+            books: [
+              
+            ],
+            guides: [
+
+            ],
+            funding: [
+
+            ],
+            toolkits: [
+
+            ],
+            courses: [
+              
+            ]
           }
         },
         {
@@ -53,6 +85,26 @@ createApp({
             ],
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
             image: "assets/images/inicial_hero.jpg"
+          },
+          content: {
+            multimedia: [
+              
+            ],
+            books: [
+              
+            ],
+            guides: [
+
+            ],
+            funding: [
+
+            ],
+            toolkits: [
+
+            ],
+            courses: [
+              
+            ]
           }
         }
       ],
@@ -95,6 +147,11 @@ createApp({
         },
       ],
       baseContent: {
+        multimedia: [
+          {
+
+          }
+        ],
         books: [
           {
             title: "The Lean Startup",
@@ -109,7 +166,17 @@ createApp({
             image: "assets/images/livro1.jpg"
           }
         ],
-        multimedia: [
+        guides: [
+          {
+
+          }
+        ],
+        funding: [
+          {
+
+          }
+        ],
+        toolkits: [
           {
 
           }
