@@ -1,0 +1,52 @@
+.hero {
+  padding: 88px 0 40px 0;
+  color: $white;
+  min-height: calc(100vh - $headerHeight);
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 56px;
+    line-height: 64px;
+
+    span {
+      font-family: Mirador;
+      font-weight: bold;
+    }
+  }
+
+  &__subtitle {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: bold;
+    width: 40%;
+
+    em {
+      font-style: italic;
+      font-weight: regular;
+    }
+  }
+
+  &__logos {
+    display: flex;
+    gap: 24px;
+  }
+
+  .animatedArrow {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
