@@ -146,6 +146,27 @@ table {
   border-spacing: 0;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+}
+
+@font-face {
+  font-family: Radikal;
+  font-weight: regular;
+  src: url("../assets/fonts/Radikal.otf") format("opentype");
+}
+@font-face {
+  font-family: Radikal;
+  font-weight: bold;
+  src: url("../assets/fonts/Radikal Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: Mirador;
+  font-weight: bold;
+  src: url("../assets/fonts/Mirador Bold.otf") format("opentype");
+}
 .button {
   padding: 0 56px;
   height: 56px;
@@ -198,12 +219,6 @@ table {
   gap: 24px;
   align-items: center;
   justify-content: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 16px;
 }
 
 .header {
@@ -344,15 +359,18 @@ table {
   height: 80px;
 }
 .quizCard__number {
-  font-size: 80px;
+  font-size: 72px;
+  line-height: 86px;
   right: 30px;
-  top: 8px;
-  font-weight: bold;
+  top: 2px;
   color: #fff;
+  font-weight: bold;
+  font-family: Mirador;
 }
 .quizCard__title {
   font-size: 24px;
   color: #fff;
+  font-family: Radikal;
 }
 .quizCard__answerList {
   display: flex;
@@ -418,10 +436,14 @@ table {
   margin-top: 80px;
 }
 .quizCard__hiddenCardTitle {
-  font-size: 36px;
+  font-size: 38px;
+  line-height: 46px;
   color: #6450FC;
+  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 56px;
+  font-weight: bold;
+  font-family: Mirador;
 }
 .quizCard__hiddenCardText {
   font-size: 24px;
@@ -484,6 +506,7 @@ table {
   line-height: 72px;
   margin-bottom: 40px;
   font-weight: bold;
+  font-family: Mirador;
 }
 .resultsHero__bulletsContainer {
   display: flex;

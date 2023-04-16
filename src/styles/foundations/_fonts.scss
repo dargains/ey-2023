@@ -1,11 +1,17 @@
 @font-face {
   font-family: Radikal;
   font-weight: regular;
-  src: url("../../assets/fonts/Radikal.otf") format("opentype");
+  src: url("../assets/fonts/Radikal.otf") format("opentype");
 }
 
 @font-face {
   font-family: Radikal;
   font-weight: bold;
-  src: url("../../assets/fonts/Radikal Bold.otf") format("opentype");
+  src: url("../assets/fonts/Radikal Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Mirador;
+  font-weight: bold;
+  src: url("../assets/fonts/Mirador Bold.otf") format("opentype");
 }
