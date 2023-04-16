@@ -464,28 +464,78 @@ table {
 }
 
 .spiralBlock {
-  padding: 80px 0;
+  padding: 80px 0 160px 0;
+  margin: 72px 0;
+  overflow: hidden;
+  background-image: url("../assets/images/spiral_arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.spiralBlock__block:nth-of-type(1) {
-  background-color: red;
+.spiralBlock .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 140px;
 }
-.spiralBlock__block:nth-of-type(2) {
-  background-color: blue;
+.spiralBlock__block {
+  width: 485px;
+  display: flex;
+  align-items: center;
+  height: 230px;
+  padding-right: 24px;
+  z-index: 1;
 }
-.spiralBlock__block:nth-of-type(3) {
-  background-color: red;
+.spiralBlock__block::before {
+  content: "";
+  display: block;
+  width: 100vw;
+  left: calc(-50vw + 242.5px);
+  border-top: 3px dashed #C4C4C4;
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+.spiralBlock__block::after {
+  content: "";
+  display: block;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.spiralBlock__block:nth-of-type(1)::after {
+  background-color: #CA50C7;
+}
+.spiralBlock__block:nth-of-type(2)::after {
+  background-color: #9B50D4;
+}
+.spiralBlock__block:nth-of-type(3)::after {
+  background-color: #6A50E2;
 }
 .spiralBlock__number {
   color: #FB50B9;
   font-weight: 700;
+  font-family: Mirador;
   font-size: 96px;
   line-height: 115px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 8px;
+  left: -32px;
+  z-index: 1;
 }
 .spiralBlock__text {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: #fff;
+  margin-left: 136px;
+  z-index: 1;
 }
 
 .resultsHero {
@@ -506,7 +556,6 @@ table {
   line-height: 72px;
   margin-bottom: 40px;
   font-weight: bold;
-  font-family: Mirador;
 }
 .resultsHero__bulletsContainer {
   display: flex;

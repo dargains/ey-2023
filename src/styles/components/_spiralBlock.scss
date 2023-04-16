@@ -1,26 +1,83 @@
 .spiralBlock {
-  padding: 80px 0;
+  padding: 80px 0 160px 0;
+  margin: 72px 0;
+  overflow: hidden;
+  background-image: url("../assets/images/spiral_arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 140px;
+  }
+
   &__block {
-    &:nth-of-type(1) {
-      background-color: red;
+    width: 485px;
+    display: flex;
+    align-items: center;
+    height: 230px;
+    padding-right: 24px;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 100vw;
+      left: calc(-50vw + 485px/2);
+      border-top: 3px dashed $gray;
+      position: absolute;
+      z-index: 0;
+      pointer-events: none;
     }
-    &:nth-of-type(2) {
-      background-color: blue;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 0;
     }
-    &:nth-of-type(3) {
-      background-color: red;
+
+    &:nth-of-type(1)::after {
+      background-color: #CA50C7;
+    }
+
+    &:nth-of-type(2)::after {
+      background-color: #9B50D4;
+    }
+
+    &:nth-of-type(3)::after {
+      background-color: #6A50E2;
     }
   }
+
   &__number {
     color: $secondary-color;
     font-weight: 700;
+    font-family: Mirador;
     font-size: 96px;
     line-height: 115px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 8px;
+    left: -32px;
+    z-index: 1;
   }
+
   &__text {
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    color: $white
+    color: $white;
+    margin-left: 136px;
+    z-index: 1;
   }
-} 
+}
