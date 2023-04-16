@@ -48,7 +48,7 @@
               <p class="resultsHero__text">
                 {{selectedCopy.hero.bottomText}}
               </p>
-              <div class="animatedArrow">
+              <div class="animatedArrow" @click="scrolldown">
                 <figure class="animatedArrow__faded">
                   <img src="assets/images/down_arrow_faded_icon.svg" alt="">
                 </figure>
@@ -127,8 +127,8 @@
           </div>
           <div class="footer__rightContainer">
             <div class="buttonContainer">
-              <a href="#" class="button button--secondary">Formato Excel</a>
-              <a href="#" class="button button--secondary">Formato PDF</a>
+              <a href="#" target="_blank" class="button button--secondary">Formato Excel</a>
+              <a href="#" target="_blank" class="button button--secondary">Formato PDF</a>
             </div>
           </div>
         </div>

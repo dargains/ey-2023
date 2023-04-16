@@ -19,7 +19,7 @@ createApp({
           },
           content: {
             multimedia: [
-              
+
             ],
             books: [
               "The Lean Startup",
@@ -54,10 +54,10 @@ createApp({
           },
           content: {
             multimedia: [
-              
+
             ],
             books: [
-              
+
             ],
             guides: [
 
@@ -69,7 +69,7 @@ createApp({
 
             ],
             courses: [
-              
+
             ]
           }
         },
@@ -88,10 +88,10 @@ createApp({
           },
           content: {
             multimedia: [
-              
+
             ],
             books: [
-              
+
             ],
             guides: [
 
@@ -103,7 +103,7 @@ createApp({
 
             ],
             courses: [
-              
+
             ]
           }
         }
@@ -213,7 +213,7 @@ createApp({
     content() {
       const selectedContent = this.selectedCopy.content
       const result = {}
-      for(group in selectedContent) {
+      for (group in selectedContent) {
         result[group] = selectedContent[group].map(((item) => this.baseContent[group].find(copy => copy.title === item)))
       }
       return result
@@ -227,6 +227,10 @@ createApp({
       } else {
         item.classList.add('contentItem--expanded')
       }
+    },
+    scrolldown() {
+      const nextElement = document.querySelector('.contentGroup')
+      nextElement.scrollIntoView({ behavior: 'smooth' })
     }
   }
 }).mount('#result')

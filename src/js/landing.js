@@ -13,5 +13,9 @@ createApp({
 
   },
   methods: {
+    scrolldown() {
+      const nextElement = document.querySelector('.infoBlock')
+      nextElement.scrollIntoView({ behavior: 'smooth' })
+    }
   }
 }).mount('#landing')
