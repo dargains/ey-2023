@@ -1,0 +1,12 @@
+.abstracts {
+  height: 288px;
+  display: flex;
+
+  &__abstract {
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+}
