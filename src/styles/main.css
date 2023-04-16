@@ -454,6 +454,38 @@ table {
   display: flex;
   align-items: center;
 }
+.pointsBlock {
+  background-color: #9B50D4;
+  padding: 52px 0;
+}
+.pointsBlock .wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 48px;
+}
+.pointsBlock__point {
+  color: #fff;
+  padding: 32px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.pointsBlock__point::before {
+  content: "";
+  display: block;
+  border: 7px solid #6450FC;
+  border-right: 0;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .textBlock {
   padding: 96px 0;
   font-weight: 700;
@@ -461,6 +493,7 @@ table {
   line-height: 60px;
   color: #fff;
   background-color: #6450FC;
+  font-family: Mirador;
 }
 
 .spiralBlock {
