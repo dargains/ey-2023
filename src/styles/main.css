@@ -454,6 +454,41 @@ table {
   display: flex;
   align-items: center;
 }
+.infoBlock {
+  padding: 80px 0;
+}
+.infoBlock .wrapper {
+  display: flex;
+}
+.infoBlock__textBlock {
+  padding: 48px 56px;
+  padding-right: 36%;
+  background-color: #6450FC;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 70%;
+  font-size: 20px;
+  line-height: 25px;
+  left: 10%;
+}
+.infoBlock__figureBlock {
+  position: absolute;
+  top: 24px;
+  right: 10%;
+}
+.infoBlock__figureBlock::before {
+  content: "";
+  background-color: #FB50B9;
+  width: 90%;
+  height: 50%;
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+}
+
 .pointsBlock {
   background-color: #9B50D4;
   padding: 52px 0;
