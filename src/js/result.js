@@ -14,8 +14,8 @@ createApp({
               "Encontrar o financiamento ideal;",
               "Alcançar os primeiros clientes.",
             ],
-            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
-            image: "assets/images/inicial_hero.jpg"
+            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
+            image: "assets/images/initial_hero.jpg"
           },
           content: {
             multimedia: [
@@ -40,7 +40,7 @@ createApp({
           }
         },
         {
-          level: "médio",
+          level: "medio",
           hero: {
             topText: "Uma vez implementados os pilares basilares da sua empresa, é o momento para investir na estratégia de marketing e na forma como poderá aumentar o alcance do seu produto/serviço. Deve explorar os seguintes atributos:",
             bullets: [
@@ -50,7 +50,7 @@ createApp({
               "Investir na estrutura e recursos afetos ao projeto",
             ],
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
-            image: "assets/images/inicial_hero.jpg"
+            image: "assets/images/middle_hero.jpg"
           },
           content: {
             multimedia: [
@@ -83,8 +83,8 @@ createApp({
               "Aumentar a capacidade financeira e de operações;",
               "Escalar os diferentes departamentos existentes.",
             ],
-            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que a sua start-up se encontra.",
-            image: "assets/images/inicial_hero.jpg"
+            bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
+            image: "assets/images/advanced_hero.jpg"
           },
           content: {
             multimedia: [

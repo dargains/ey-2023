@@ -374,7 +374,7 @@ table {
 .quizCard__number {
   font-size: 72px;
   line-height: 86px;
-  right: 30px;
+  right: 22px;
   top: 2px;
   color: #fff;
   font-weight: bold;
@@ -801,6 +801,9 @@ table {
 .swiper {
   width: 80%;
 }
+.swiper .swiper-slide {
+  height: auto;
+}
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
@@ -818,6 +821,7 @@ table {
   background: #F8F8FF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 12px;
+  height: 100%;
 }
 .slide__image {
   margin-bottom: 8px;
