@@ -86,7 +86,8 @@
               <div class="contentItem__slider">
                 <div class="swiper" :class="`swiper-${contentItem.id}`">
                   <div class="swiper-wrapper">
-                    <div class="slide swiper-slide" v-for="contentItem in content[contentItem.id]" :key="contentItem.title">
+                    <div class="slide swiper-slide" v-for="contentItem in content[contentItem.id]"
+                      :key="contentItem.title">
                       <div class="slide__container">
                         <figure class="slide__image">
                           <img :src="contentItem.image" :alt="contentItem.title">
@@ -121,13 +122,13 @@
               Tenha sempre todo o material consigo
             </p>
             <p class="footer__text--small">
-              Descarregue o conteúdo
+              Descarregue o conteúdo nos formatos ao lado
             </p>
           </div>
           <div class="footer__rightContainer">
             <div class="buttonContainer">
-              <a href="#" class="button button--secondary">Descarregar Diagnóstico Excel</a>
-              <a href="#" class="button button--secondary">Descarregar Diagnóstico PDF</a>
+              <a href="#" class="button button--secondary">Formato Excel</a>
+              <a href="#" class="button button--secondary">Formato PDF</a>
             </div>
           </div>
         </div>
