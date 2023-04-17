@@ -9,21 +9,33 @@ createApp({
           hero: {
             topText: "Encontra-se, neste momento, na fase inicial do seu percurso enquanto empreendedor. Deve explorar a sua ideia e apostar no seu crescimento, investindo, para o efeito, nos seguintes atributos:",
             bullets: [
-              "Construir e validar um MVP;",
-              "Definir um modelo de negócios sustentável;",
-              "Encontrar o financiamento ideal;",
-              "Alcançar os primeiros clientes.",
+              "Construir e validar um MVP",
+              "Definir um modelo de negócios sustentável",
+              "Encontrar o financiamento ideal",
+              "Alcançar os primeiros clientes",
             ],
             bottomText: "Explore os recursos e conteúdos seguintes, os quais se encontram especificamente direcionados para a fase de maturidade em que se encontra.",
             image: "assets/images/initial_hero.jpg"
           },
           content: {
             multimedia: [
+              "How to Plan an MVP",
+              "Bitalk",
+              "The single biggest reason why start-ups succeed",
+              "Productivityist",
+              "Modern Startup Marketing",
+              "Modelo de Negócio",
+              "Business Plan Writing 101: Wharton Entrepreneurship Series",
 
             ],
             books: [
               "The Lean Startup",
-              "Zero To One - Notes On Start Ups, Or How To Build The Future"
+              "Zero To One - Notes On Start Ups, Or How To Build The Future",
+              "Agile Product Management with Scrum: Creating Products that Customers Love",
+              "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
+              "Startup: Manual Do Empreendedor",
+              "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+
             ],
             guides: [
               "Criar e Consolidar Empresas (G)Locais passo a passo",
@@ -32,8 +44,13 @@ createApp({
               "The Secrets of Great Teamwork",
               "10 Rules To Build A Wildly Successful Business",
               "Guia para a Inovação",
+
             ],
             funding: [
+              "Vouchers para Startups - Novos Produtos Verdes e Digitais",
+              "EU Funding",
+              "Vale Incubação",
+              "Startup Weekend",
 
             ],
             toolkits: [
@@ -45,7 +62,7 @@ createApp({
           }
         },
         {
-          level: "medio",
+          level: "médio",
           hero: {
             topText: "Uma vez implementados os pilares basilares da sua empresa, é o momento para investir na estratégia de marketing e na forma como poderá aumentar o alcance do seu produto/serviço. Deve explorar os seguintes atributos:",
             bullets: [
@@ -154,6 +171,48 @@ createApp({
       baseContent: {
         multimedia: [
           {
+            title: "How to Plan an MVP",
+            author: "Michael Seibel",
+            url: "https://www.youtube.com/watch?v=1hHMwLxN6EM",
+            image: ""
+          },
+          {
+            title: "Bitalk",
+            author: "",
+            url: "https://bitalk.pt/home",
+            image: ""
+          },
+          {
+            title: "The single biggest reason why start-ups succeed",
+            author: "Bill Gross",
+            url: "https://www.youtube.com/watch?v=bNpx7gpSqbY",
+            image: ""
+          },
+          {
+            title: "Productivityist",
+            author: "",
+            url: "https://productivityist.com/category/podcast/",
+            image: ""
+          },
+          {
+            title: "Modern Startup Marketing",
+            author: "",
+            url: "https://podcasts.apple.com/us/podcast/modern-startup-marketing/id1534533276",
+            image: ""
+          },
+          {
+            title: "Modelo de Negócio",
+            author: "IAPMEI",
+            url: "https://www.youtube.com/watch?v=bmMspXAZkP0",
+            image: ""
+          },
+          {
+            title: "Business Plan Writing 101: Wharton Entrepreneurship Series",
+            author: "",
+            url: "https://www.youtube.com/watch?v=zlrb_X6fYZ0",
+            image: ""
+          },
+          {
             title: "",
             author: "",
             url: "",
@@ -165,14 +224,44 @@ createApp({
             title: "The Lean Startup",
             author: "Eric Ries",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/content/books/livro1.jpg"
+            image: "assets/images/content/books/theleanstartup.png"
           },
           {
             title: "Zero To One - Notes On Start Ups, Or How To Build The Future",
             author: "Blake Masters e Peter Thiel",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/content/books/livro1.jpg"
-          }
+            image: "assets/images/content/books/zerotoone.jpeg"
+          },
+          {
+            title: "Agile Product Management with Scrum: Creating Products that Customers Love",
+            author: "Roman Pichler",
+            url: "https://www.goodreads.com/book/show/7950745-agile-product-management-with-scrum",
+            image: "assets/images/content/books/agileproductmanagementwithscrum.jpeg"
+          },
+          {
+            title: "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
+            author: "Bill Aulet",
+            url: "https://www.goodreads.com/book/show/18652777-disciplined-entrepreneurship",
+            image: "assets/images/content/books/Disciplined Entrepreneurship.jpeg"
+          },
+          {
+            title: "Startup: Manual Do Empreendedor",
+            author: "Steve Blank e Bob Dorf",
+            url: "https://www.goodreads.com/book/show/28015259-startup",
+            image: "assets/images/content/books/startupmanualdoempreendedor.jpeg"
+          },
+          {
+            title: "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+            author: "Alexander Osterwalder",
+            url: "https://www.goodreads.com/book/show/7935732-business-model-generation",
+            image: "assets/images/content/books/BusinessModelGeneration.jpeg"
+          },
+          {
+            title: "",
+            author: "",
+            url: "",
+            image: ""
+          },
         ],
         guides: [
           {
@@ -261,6 +350,30 @@ createApp({
           },
         ],
         funding: [
+          {
+            title: "Vouchers para Startups - Novos Produtos Verdes e Digitais",
+            author: "",
+            url: "https://startupportugal.com/pt/programs/vouchers-para-startups-novos-produtos-verdes-e-digitais/",
+            image: ""
+          },
+          {
+            title: "EU Funding",
+            author: "",
+            url: "https://europa.eu/youreurope/business/finance-funding/getting-funding/eu-funding-programmes/index_pt.htm",
+            image: ""
+          },
+          {
+            title: "Vale Incubação",
+            author: "",
+            url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Incentivos-Financiamento/Sistemas-de-Incentivos/Incentivos-Portugal-2020/Vale-Incubacao.aspx",
+            image: ""
+          },
+          {
+            title: "Startup Weekend",
+            author: "",
+            url: "https://startupweekend.org/",
+            image: ""
+          },
           {
             title: "",
             author: "",

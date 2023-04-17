@@ -220,7 +220,7 @@ createApp({
       if (result <= firstThreshold) {
         level = "inicial"
       } else if (result > firstThreshold && result <= secondThreshold) {
-        level = "medio"
+        level = "médio"
       } else {
         level = "elevado"
       }
