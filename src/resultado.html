@@ -88,7 +88,7 @@
                   <div class="swiper-wrapper">
                     <div class="slide swiper-slide" v-for="contentItem in content[contentItem.id]"
                       :key="contentItem.title">
-                      <div class="slide__container">
+                      <a class="slide__container" :href="contentItem.url" target="_blank">
                         <figure class="slide__image">
                           <img :src="contentItem.image" :alt="contentItem.title">
                         </figure>
@@ -98,7 +98,7 @@
                         <p class="slide__author">
                           {{contentItem.author}}
                         </p>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
