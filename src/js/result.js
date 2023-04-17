@@ -26,7 +26,12 @@ createApp({
               "Zero To One - Notes On Start Ups, Or How To Build The Future"
             ],
             guides: [
-
+              "Criar e Consolidar Empresas (G)Locais passo a passo",
+              "Incubadoras Certificadas",
+              "The ultimate guide to creating a successful startup team",
+              "The Secrets of Great Teamwork",
+              "10 Rules To Build A Wildly Successful Business",
+              "Guia para a Inovação",
             ],
             funding: [
 
@@ -149,8 +154,11 @@ createApp({
       baseContent: {
         multimedia: [
           {
-
-          }
+            title: "",
+            author: "",
+            url: "",
+            image: ""
+          },
         ],
         books: [
           {
@@ -168,18 +176,105 @@ createApp({
         ],
         guides: [
           {
-
-          }
+            title: "Criar e Consolidar Empresas (G)Locais passo a passo",
+            author: "",
+            url: "https://www.iapmei.pt/getattachment/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Guias-e-Manuais-de-Apoio/CriarConsolidarPassoaPasso.pdf.aspx?lang=pt-PT",
+            image: "assets/images/content/guides/iapmei.png"
+          },
+          {
+            title: "Incubadoras Certificadas",
+            author: "",
+            url: "https://www.iapmei.pt/getattachment/Paginas/StartUP-Visa-pt/StartUP-Visa_Incubadoras-Certificadas_PUB_2021_03marco.pdf.aspx?lang=pt-PT",
+            image: "assets/images/content/guides/rni.png"
+          },
+          {
+            title: "The ultimate guide to creating a successful startup team",
+            author: "",
+            url: "https://fastercapital.com/content/The-ultimate-guide-to-creating-a-successful-startup-team.html",
+            image: "assets/images/content/guides/fastercapital.png"
+          },
+          {
+            title: "The Secrets of Great Teamwork",
+            author: "",
+            url: "https://hbr.org/2016/06/the-secrets-of-great-teamwork",
+            image: ""
+          },
+          {
+            title: "10 Rules To Build A Wildly Successful Business",
+            author: "",
+            url: "https://www.forbes.com/sites/ericwagner/2014/01/14/10-rules-to-build-a-wildly-successful-business/?sh=709ad0fd1b96",
+            image: ""
+          },
+          {
+            title: "Guia para a Inovação",
+            author: "Porto Digital",
+            url: "https://www.portodigital.pt/wp-content/uploads/2020/06/Guia-para-a-Inovac%CC%A7a%CC%83o_spread.pdf",
+            image: ""
+          },
+          {
+            title: "9 Steps to Help You Start a Startup",
+            author: "",
+            url: "https://www.thehartford.com/business-insurance/strategy/how-to-start-a-business/startup",
+            image: ""
+          },
+          {
+            title: "How to Grow a Small Business in 10 Easy Steps",
+            author: "",
+            url: "https://www.thehartford.com/business-insurance/strategy/accelerate-growth/how-to-grow-small-business",
+            image: ""
+          },
+          {
+            title: "Guia do Empreendedor",
+            author: "IAPMEI",
+            url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/GuiaEmpreendedor_sd.aspx",
+            image: "assets/images/content/guides/guiadoempreendedor.png"
+          },
+          {
+            title: "Manual do Empreendedor",
+            author: "IAPMEI",
+            url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/ManualEmpreendedor_sd.aspx",
+            image: "assets/images/content/guides/manualdoempreendedor.png"
+          },
+          {
+            title: "Guia para Plano de Negócios",
+            author: "IAPMEI",
+            url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Documentos-Financiamento/ComoElaborarPlanodeNegocioGuiaExplicativo.aspx",
+            image: "assets/images/content/guides/guiaparaplanodenegocios.png"
+          },
+          {
+            title: "3 Apps to Help You Write a Business Plan",
+            author: "",
+            url: "https://www.entrepreneur.com/starting-a-business/3-apps-to-help-you-write-a-business-plan/225616",
+            image: ""
+          },
+          {
+            title: "Investigação & desenvolvimento: Ecossistema da UP",
+            author: "",
+            url: "https://www.up.pt/portal/pt/investigar/ecossistema-de-investigacao/unidades-de-id/",
+            image: ""
+          },
+          {
+            title: "",
+            author: "",
+            url: "",
+            image: ""
+          },
         ],
         funding: [
           {
-
-          }
+            title: "",
+            author: "",
+            url: "",
+            image: ""
+          },
         ],
         toolkits: [
           {
-
-          }
+            title: "",
+            author: "",
+            url: "",
+            image: ""
+          },
         ],
         courses: [
           {
