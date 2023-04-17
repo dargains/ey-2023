@@ -202,6 +202,10 @@ createApp({
         },
       });
     })
+    const images = document.querySelectorAll(".parallax")
+    images.forEach(image => {
+      new Parallax(image);
+    })
   },
   computed: {
     level() {

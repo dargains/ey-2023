@@ -8,6 +8,10 @@ createApp({
   },
   mounted() {
     this.$el.classList.remove("hiddenPage")
+    const images = document.querySelectorAll(".parallax")
+    images.forEach(image => {
+      new Parallax(image);
+    })
   },
   computed: {
 
