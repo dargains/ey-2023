@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     flex: 1;
-    gap: 48px;
+    gap: 32px;
   }
 
   &__point {
@@ -24,10 +24,10 @@
       display: block;
       border: 7px solid $primary-color;
       border-right: 0;
-      height: 150px;
+      height: 100%;
       width: 150px;
       position: absolute;
-      top: 0;
+      top: -5px;
       left: 0;
     }
   }
