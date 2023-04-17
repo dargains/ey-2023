@@ -34,13 +34,16 @@
 
   &__image {
     margin-bottom: 8px;
-    background-color: $darkgray;
+    background-color: $gray;
     min-height: 280px;
     min-width: 190px;
-
+    display: flex;
+    flex-direction: column;
+    
     img {
       width: 100%;
       object-fit: cover;
+      flex: 1;
     }
   }
 

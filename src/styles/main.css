@@ -810,14 +810,17 @@ table {
 }
 .slide__image {
   margin-bottom: 8px;
-  background-color: #646464;
+  background-color: #C4C4C4;
   min-height: 280px;
   min-width: 190px;
+  display: flex;
+  flex-direction: column;
 }
 .slide__image img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  flex: 1;
 }
 .slide__title {
   font-weight: bold;

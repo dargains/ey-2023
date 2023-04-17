@@ -86,26 +86,26 @@
               <div class="contentItem__slider">
                 <div class="swiper" :class="`swiper-${contentItem.id}`">
                   <div class="swiper-wrapper">
-                    <div class="slide swiper-slide" v-for="contentItem in content[contentItem.id]"
-                      :key="contentItem.title">
-                      <a class="slide__container" :href="contentItem.url" target="_blank">
+                    <div class="slide swiper-slide" v-for="content in content[contentItem.id]"
+                      :key="content.title">
+                      <a class="slide__container" :href="content.url" target="_blank">
                         <figure class="slide__image">
-                          <img :src="contentItem.image" :alt="contentItem.title">
+                          <img :src="content.image || contentItem.image" :alt="content.title">
                         </figure>
                         <p class="slide__title">
-                          {{contentItem.title}}
+                          {{content.title}}
                         </p>
                         <p class="slide__author">
-                          {{contentItem.author}}
+                          {{content.author}}
                         </p>
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-prev" :class="`swiper-button-prev-${contentItem.id}`">
+                <div class="swiper-button-prev" :class="`swiper-button-prev-${content.id}`">
                   <img src="assets/images/slider_arrow.svg" alt="slide anterior">
                 </div>
-                <div class="swiper-button-next" :class="`swiper-button-next-${contentItem.id}`">
+                <div class="swiper-button-next" :class="`swiper-button-next-${content.id}`">
                   <img src="assets/images/slider_arrow.svg" alt="próximo slide">
                 </div>
               </div>
