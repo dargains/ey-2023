@@ -420,6 +420,42 @@ createApp({
             url: "https://www.universitylabpartners.org/blog/7-different-business-model-ideas-for-your-startup",
             image: ""
           },
+          {
+            title: "Business Models For Startups: Choose The Best One",
+            author: "",
+            url: "https://www.uptech.team/blog/business-models-for-startups",
+            image: ""
+          },
+          {
+            title: "8 Types of business models & the value they deliver",
+            author: "",
+            url: "https://online.hbs.edu/blog/post/types-of-business-models",
+            image: ""
+          },
+          {
+            title: "Revolut Business Model: How Does UK’s Most Valuable Private Tech Startup Work?",
+            author: "Nikhil Bansal",
+            url: "https://www.apptunix.com/blog/revolut-business-model/",
+            image: ""
+          },
+          {
+            title: "5 Strategies to Expand Your Products & Services",
+            author: "Susan E. DeFranzo",
+            url: "https://www.snapsurveys.com/blog/5-strategies-expand-products-services/",
+            image: ""
+          },
+          {
+            title: "Employee Feedback: The Key to Retention During the Great Resignation",
+            author: "Michael Beer",
+            url: "https://hbswk.hbs.edu/item/employee-feedback-the-key-to-retention-during-the-great-resignation",
+            image: ""
+          },
+          {
+            title: "Os 10 passos para a internacionalizar o seu negócio",
+            author: "",
+            url: "https://www.cgd.pt/Site/Saldo-Positivo/negocios/Pages/passos-para-internacionalizar.aspx",
+            image: ""
+          },
         ],
         funding: [
           {
