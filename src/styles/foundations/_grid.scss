@@ -3,3 +3,13 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 16px;
 }
+
+.grid__item {
+  &--full {
+    grid-column: 1 / 13;
+  }
+  &--large {
+    grid-column: 2 / 12;
+  }
+
+}

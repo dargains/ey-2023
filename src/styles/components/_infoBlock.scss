@@ -2,27 +2,31 @@
   padding: 80px 0;
 
   .wrapper {
-    display: flex;
+    // display: flex;
   }
 
   &__textBlock {
     padding: 48px 56px;
-    padding-right: 36%;
+    padding-right: 45%;
     background-color: $primary-color;
     color: $white;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 70%;
+    // width: 70%;
     font-size: 20px;
     line-height: 25px;
-    left: 10%;
+    // left: 10%;
+    grid-column: 2 / 10;
+    grid-row: 1 /2;
   }
 
   &__figureBlock {
-    position: absolute;
+    // position: absolute;
     top: 24px;
-    right: 10%;
+    // right: 10%;
+    grid-column: 7 / 12;
+    grid-row: 1 /2;
     img {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -34,7 +38,7 @@
       height: 50%;
       display: block;
       position: absolute;
-      bottom: -40px;
+      bottom: 40px;
       left: -40px;
     }
   }

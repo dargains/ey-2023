@@ -152,6 +152,13 @@ table {
   gap: 16px;
 }
 
+.grid__item--full {
+  grid-column: 1/13;
+}
+.grid__item--large {
+  grid-column: 2/12;
+}
+
 @font-face {
   font-family: Radikal;
   font-weight: regular;
@@ -517,26 +524,23 @@ table {
 .infoBlock {
   padding: 80px 0;
 }
-.infoBlock .wrapper {
-  display: flex;
-}
 .infoBlock__textBlock {
   padding: 48px 56px;
-  padding-right: 36%;
+  padding-right: 45%;
   background-color: #6450FC;
   color: #fff;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  width: 70%;
   font-size: 20px;
   line-height: 25px;
-  left: 10%;
+  grid-column: 2/10;
+  grid-row: 1/2;
 }
 .infoBlock__figureBlock {
-  position: absolute;
   top: 24px;
-  right: 10%;
+  grid-column: 7/12;
+  grid-row: 1/2;
 }
 .infoBlock__figureBlock img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -548,7 +552,7 @@ table {
   height: 50%;
   display: block;
   position: absolute;
-  bottom: -40px;
+  bottom: 40px;
   left: -40px;
 }
 
