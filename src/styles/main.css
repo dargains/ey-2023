@@ -344,19 +344,22 @@ table {
 
 .quizContainer {
   min-height: calc(100vh - 108px);
-  padding: 80px 0;
+  padding: 80px 56px;
   background-image: url("../../src/assets/images/quiz_background.jpg");
+  align-content: stretch;
+}
+.quizContainer .wrapper {
+  padding: 0;
+  width: 100%;
 }
 
 .quizCard {
   background-color: #fff;
-  grid-column: 2/12;
-  align-self: center;
-  min-height: 80%;
+  height: 100%;
   padding: 48px 112px;
   box-shadow: 10px 19px 20px 8px rgba(0, 0, 0, 0.25);
-  display: flex;
   flex-direction: column;
+  display: flex;
 }
 .quizCard__closeButton {
   color: #6450FC;

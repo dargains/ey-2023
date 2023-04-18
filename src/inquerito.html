@@ -31,69 +31,72 @@
 
       <!-- quizContainer -->
       <div class="quizContainer grid">
-        <div class="quizCard">
-          <button class="quizCard__closeButton" @click="handleShowHiddenCard">
-            <img src="assets/images/close_icon.svg" alt="Fechar">
-          </button>
-          <div class="quizCard__wrapper">
-            <header class="quizCard__header">
-              <span class="quizCard__number">{{currentQuestion}}</span>
-              <h3 class="quizCard__title">{{questions[activeQuestion].title}}</h3>
-            </header>
-            <ul class="quizCard__answerList">
-              <li class="quizCard__answer" v-for="(answer, aindex) in questions[activeQuestion].answers" :key="answer">
-                <div class="checkbox__container">
-                  <input class="checkbox__input" type="radio" :name="`answer${activeQuestion}`"
-                    :id="`answer${activeQuestion}${aindex}`" v-model="questions[activeQuestion].answered"
-                    :value="aindex + 1">
-                  <label class="checkbox__label" :for="`answer${activeQuestion}${aindex}`">{{answer}}</label>
-                </div>
-              </li>
-            </ul>
-            <footer class="quizCard__footer">
-              <button class="button--back" @click="handleGoBack" v-if="activeQuestion">
-                <img src="assets/images/double_arrow_icon.svg" alt="voltar">
-                <span>
-                  voltar
-                </span>
-              </button>
-              <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
-                @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1">
-                Terminar inquérito
-              </button>
-              <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
-                @click="handleGoForward" v-else>
-                avançar
-              </button>
-              <div class="quizCard__pagination">
-                <span>{{currentQuestion}}/{{totalQuestions}}</span>
-              </div>
-            </footer>
-          </div>
+        <div class="wrapper grid__item--large">
 
-          <!-- card saída -->
-          <div class="quizCard__hiddenCard" :class="{'quizCard__hiddenCard--show': showHiddenCard}">
-            <div class="quizCard__hiddenCardWrapper">
-              <h2 class="quizCard__hiddenCardTitle">
-                Tem certeza que deseja sair?
-              </h2>
-              <p class="quizCard__hiddenCardText">
-                Ao sair do inquérito todas as respostas enviadas até o momento serão perdidas.
-              </p>
-              <p class="quizCard__hiddenCardText">
-                Para ter acesso ao diagnóstico será necessário inicar o inquérito novamente.
-              </p>
-              <div class="buttonContainer">
-                <a class="button button--primary" href="index.html">
-                  Sair do inquérito
-                </a>
-                <button class="button button--secondary" @click="handleHideHiddenCard">
-                  voltar ao inquérito
+          <div class="quizCard">
+            <button class="quizCard__closeButton" @click="handleShowHiddenCard">
+              <img src="assets/images/close_icon.svg" alt="Fechar">
+            </button>
+            <div class="quizCard__wrapper">
+              <header class="quizCard__header">
+                <span class="quizCard__number">{{currentQuestion}}</span>
+                <h3 class="quizCard__title">{{questions[activeQuestion].title}}</h3>
+              </header>
+              <ul class="quizCard__answerList">
+                <li class="quizCard__answer" v-for="(answer, aindex) in questions[activeQuestion].answers" :key="answer">
+                  <div class="checkbox__container">
+                    <input class="checkbox__input" type="radio" :name="`answer${activeQuestion}`"
+                      :id="`answer${activeQuestion}${aindex}`" v-model="questions[activeQuestion].answered"
+                      :value="aindex + 1">
+                    <label class="checkbox__label" :for="`answer${activeQuestion}${aindex}`">{{answer}}</label>
+                  </div>
+                </li>
+              </ul>
+              <footer class="quizCard__footer">
+                <button class="button--back" @click="handleGoBack" v-if="activeQuestion">
+                  <img src="assets/images/double_arrow_icon.svg" alt="voltar">
+                  <span>
+                    voltar
+                  </span>
                 </button>
+                <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
+                  @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1">
+                  Terminar inquérito
+                </button>
+                <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
+                  @click="handleGoForward" v-else>
+                  avançar
+                </button>
+                <div class="quizCard__pagination">
+                  <span>{{currentQuestion}}/{{totalQuestions}}</span>
+                </div>
+              </footer>
+            </div>
+
+            <!-- card saída -->
+            <div class="quizCard__hiddenCard" :class="{'quizCard__hiddenCard--show': showHiddenCard}">
+              <div class="quizCard__hiddenCardWrapper">
+                <h2 class="quizCard__hiddenCardTitle">
+                  Tem certeza que deseja sair?
+                </h2>
+                <p class="quizCard__hiddenCardText">
+                  Ao sair do inquérito todas as respostas enviadas até o momento serão perdidas.
+                </p>
+                <p class="quizCard__hiddenCardText">
+                  Para ter acesso ao diagnóstico será necessário inicar o inquérito novamente.
+                </p>
+                <div class="buttonContainer">
+                  <a class="button button--primary" href="index.html">
+                    Sair do inquérito
+                  </a>
+                  <button class="button button--secondary" @click="handleHideHiddenCard">
+                    voltar ao inquérito
+                  </button>
+                </div>
               </div>
             </div>
+            
           </div>
-
         </div>
       </div>
     </div>
