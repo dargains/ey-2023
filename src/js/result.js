@@ -62,7 +62,7 @@ createApp({
           }
         },
         {
-          level: "médio",
+          level: "média",
           hero: {
             topText: "Uma vez implementados os pilares basilares da sua empresa, é o momento para investir na estratégia de marketing e na forma como poderá aumentar o alcance do seu produto/serviço. Deve explorar os seguintes atributos:",
             bullets: [
