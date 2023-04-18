@@ -417,7 +417,7 @@ createApp({
   },
   computed: {
     level() {
-      return window.location.search.split('=')[1]
+      return decodeURIComponent(window.location.search.split('=')[1])
     },
     selectedCopy() {
       return this.copy.find(({ level }) => level === this.level)

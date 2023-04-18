@@ -224,7 +224,7 @@ createApp({
       } else {
         level = "elevado"
       }
-      window.location.href = 'resultado.html?result=' + level
+      window.location.href = 'resultado.html?result=' + encodeURIComponent(level)
     },
     handleShowHiddenCard() {
       this.showHiddenCard = true
