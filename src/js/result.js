@@ -343,9 +343,81 @@ createApp({
             image: ""
           },
           {
-            title: "",
+            title: "Associação Portuguesa de Capital de Risco",
             author: "",
-            url: "",
+            url: "https://www.apcri.pt/associados/",
+            image: ""
+          },
+          {
+            title: "Listagem de Business Angels",
+            author: "Pedro Almeida",
+            url: "https://www.pedroalmeidavc.com/venture-capital-and-business-angel-investors-in-portugal/",
+            image: ""
+          },
+          {
+            title: "7 Effective Ways to Lead Teams",
+            author: "Sean Silverthorne",
+            url: "https://hbswk.hbs.edu/item/7-effective-ways-to-lead-teams",
+            image: ""
+          },
+          {
+            title: "The Secrets of Great Teamwork",
+            author: "",
+            url: "https://hbr.org/2016/06/the-secrets-of-great-teamwork",
+            image: ""
+          },
+          {
+            title: "The ultimate guide to creating a successful startup team",
+            author: "",
+            url: "https://fastercapital.com/content/The-ultimate-guide-to-creating-a-successful-startup-team.html",
+            image: ""
+          },
+          {
+            title: "How To Build Customer Loyalty: Five Strategies For Small Businesses",
+            author: "Sagar Tarawade",
+            url: "https://www.forbes.com/sites/forbesbusinesscouncil/2021/06/21/how-to-build-customer-loyalty-five-strategies-for-small-businesses/?sh=387fa91d7e97",
+            image: ""
+          },
+          {
+            title: "Product Strategy for Startups in 2023",
+            author: "TechMagic",
+            url: "https://www.techmagic.co/blog/product-strategy-for-startups/",
+            image: ""
+          },
+          {
+            title: "10 Tips to help you boost team performance",
+            author: "",
+            url: "https://online.hbs.edu/blog/post/how-to-improve-team-performance",
+            image: ""
+          },
+          {
+            title: "Toolkit",
+            author: "Porto Digital",
+            url: "https://www.portodigital.pt/wp-content/uploads/2020/05/TOOLKIT_v2_issuu-compressed.pdf",
+            image: ""
+          },
+          {
+            title: "15 Strategies for Quickly Expanding Your Business",
+            author: "R.L. ADAMS",
+            url: "https://www.entrepreneur.com/growing-a-business/15-strategies-for-quickly-expanding-your-business/306049",
+            image: ""
+          },
+          {
+            title: "All About Market Potential: How to Analyze Market Potential",
+            author: "Masterclass",
+            url: "https://www.masterclass.com/articles/market-potential",
+            image: ""
+          },
+          {
+            title: "The 10 Most Popular Startup Revenue Models",
+            author: "",
+            url: "https://fi.co/insight/the-10-most-popular-startup-revenue-models",
+            image: ""
+          },
+          {
+            title: "7 Different Business Model Ideas for Your Startup",
+            author: "University Lab Partners",
+            url: "https://www.universitylabpartners.org/blog/7-different-business-model-ideas-for-your-startup",
             image: ""
           },
         ],
