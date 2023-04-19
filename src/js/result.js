@@ -533,9 +533,123 @@ createApp({
         ],
         toolkits: [
           {
-            title: "",
+            title: "Toolkit Porto Digital",
             author: "",
-            url: "",
+            url: "https://toolkit.portodigital.pt/",
+            image: ""
+          },
+          {
+            title: "Business Model Canvas Template",
+            author: "Strategyzer",
+            url: "https://www.strategyzer.com/canvas/business-model-canvas",
+            image: ""
+          },
+          {
+            title: "Entrepreneurship community",
+            author: "StartupNation",
+            url: "https://startupnation.com/",
+            image: ""
+          },
+          {
+            title: "Caderno do Empreendedor",
+            author: "Vasco Nogueira, Vítor Freitas",
+            url: "https://www.booki.pt/loja/prod/caderno-do-empreendedor/9789893322918/",
+            image: ""
+          },
+          {
+            title: "Mapa do ecossistema",
+            author: "",
+            url: "https://map.scaleupporto.pt/dashboard",
+            image: ""
+          },
+          {
+            title: "Capacitação em negócios",
+            author: "Porto Business School",
+            url: "www.pbs.up.pt",
+            image: ""
+          },
+          {
+            title: "Startup Portugal",
+            author: "",
+            url: "https://startupportugal.com/pt/",
+            image: ""
+          },
+          {
+            title: "AICEP",
+            author: "",
+            url: "https://www.portugalglobal.pt/PT/Paginas/Index.aspx",
+            image: ""
+          },
+          {
+            title: "IAPMEI",
+            author: "",
+            url: "https://www.iapmei.pt/",
+            image: ""
+          },
+          {
+            title: "One Stop Shop",
+            author: "Startup Portugal",
+            url: "https://startupportugal.com/pt/one-stop-shop-pt/",
+            image: ""
+          },
+          {
+            title: "Start & Scale Guide",
+            author: "",
+            url: "https://www.portodigital.pt/wp-content/uploads/2020/05/startscaleguide.pdf",
+            image: ""
+          },
+          {
+            title: "GrowthHackers",
+            author: "",
+            url: "https://growthhackers.com/",
+            image: ""
+          },
+          {
+            title: "Trello - Project management tool",
+            author: "",
+            url: "https://trello.com/",
+            image: ""
+          },
+          {
+            title: "LivePlan",
+            author: "",
+            url: "https://www.liveplan.com/",
+            image: ""
+          },
+          {
+            title: "Innovation Scoring",
+            author: "",
+            url: "https://www.innovationscoring.pt/",
+            image: ""
+          },
+          {
+            title: "MIT Technology Review",
+            author: "",
+            url: "https://www.technologyreview.com/",
+            image: ""
+          },
+          {
+            title: "Innovation Management",
+            author: "",
+            url: "https://www.innovationmanagement.se/",
+            image: ""
+          },
+          {
+            title: "Harvard Business Review",
+            author: "",
+            url: "https://hbr.org/",
+            image: ""
+          },
+          {
+            title: "Strategyzer",
+            author: "",
+            url: "https://www.strategyzer.com/",
+            image: ""
+          },
+          {
+            title: "Comparador de mercados",
+            author: "AICEP",
+            url: "https://www.portugalexporta.pt/produtos-e-servicos/informacao-de-mercado/comparador-mercados",
             image: ""
           },
         ],
