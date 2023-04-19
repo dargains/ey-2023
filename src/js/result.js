@@ -233,16 +233,16 @@ createApp({
             image: "assets/images/content/books/zerotoone.jpeg"
           },
           {
-            title: "Agile Product Management with Scrum: Creating Products that Customers Love",
-            author: "Roman Pichler",
-            url: "https://www.goodreads.com/book/show/7950745-agile-product-management-with-scrum",
-            image: "assets/images/content/books/agileproductmanagementwithscrum.jpeg"
-          },
-          {
             title: "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
             author: "Bill Aulet",
             url: "https://www.goodreads.com/book/show/18652777-disciplined-entrepreneurship",
             image: "assets/images/content/books/Disciplined Entrepreneurship.jpeg"
+          },
+          {
+            title: "Rich Dad, Poor Dad",
+            author: "Robert T. Kiyosaki, Sharon L. Lechter",
+            url: "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
+            image: "assets/images/content/books/richdadpoordad.jpeg"
           },
           {
             title: "Startup: Manual Do Empreendedor",
@@ -251,16 +251,58 @@ createApp({
             image: "assets/images/content/books/startupmanualdoempreendedor.jpeg"
           },
           {
+            title: "Agile Product Management with Scrum: Creating Products that Customers Love",
+            author: "Roman Pichler",
+            url: "https://www.goodreads.com/book/show/7950745-agile-product-management-with-scrum",
+            image: "assets/images/content/books/agileproductmanagementwithscrum.jpeg"
+          },
+          {
             title: "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
             author: "Alexander Osterwalder",
             url: "https://www.goodreads.com/book/show/7935732-business-model-generation",
             image: "assets/images/content/books/BusinessModelGeneration.jpeg"
           },
           {
-            title: "",
-            author: "",
-            url: "",
-            image: ""
+            title: "Value Proposition Design",
+            author: "Alexander Osterwalder, Yves Pigneur, Patricia Papadakos, Gregory Bernarda, Alan Smith, Nguyễn Thụy Khánh Chương",
+            url: "https://www.goodreads.com/book/show/22337524-value-proposition-design",
+            image: "assets/images/content/books/valuepropositiondesign.jpeg"
+          },
+          {
+            title: "Positioning: The Battle for Your Mind",
+            author: "Philip Kotler, Al Ries, Jack Trout",
+            url: "https://www.goodreads.com/book/show/760025.Positioning",
+            image: "assets/images/content/books/positioning.jpeg"
+          },
+          {
+            title: "Startup CFO: The Finance Handbook For Your Growing Business",
+            author: "Kyle Brennan",
+            url: "https://www.goodreads.com/book/show/43596288-startup-cfo",
+            image: "assets/images/content/books/startupcfo.jpeg"
+          },
+          {
+            title: "Scaling Up: How a Few Companies Make It...and Why the Rest Don't, Rockefeller Habits 2.0",
+            author: "Verne Harnish",
+            url: "https://www.goodreads.com/book/show/22212880-scaling-up",
+            image: "assets/images/content/books/scalingup.jpeg"
+          },
+          {
+            title: "The Innovator's Dilemma",
+            author: "Clayton M. Christensen, L.J. Ganser",
+            url: "https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma",
+            image: "assets/images/content/books/theinnovatorsdilemma.jpeg"
+          },
+          {
+            title: "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+            author: "Kim Malone Scott",
+            url: "https://www.goodreads.com/book/show/44300042-radical-candor",
+            image: "assets/images/content/books/radicalcandor.jpeg"
+          },
+          {
+            title: "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
+            author: "Donald Miller",
+            url: "https://www.goodreads.com/book/show/34460583-building-a-storybrand",
+            image: "assets/images/content/books/buildingastorybrand.jpeg"
           },
         ],
         guides: [
