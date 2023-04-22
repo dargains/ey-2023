@@ -72,10 +72,27 @@ createApp({
               "EU Funding",
               "Vale Incubação",
               "Startup Weekend",
-
+              "Startup Voucher",
+              "Pitch Voucher",
+              "Apoios à contratação",
+              "IAPMEI",
+              "Sistemas de Incentivos",
+              "Academia de PME",
+              "Fábrica de Startups",
+              "Linha ADN-Startup",
+              "Programa de Incentivos",
             ],
             toolkits: [
-
+              "Toolkit Porto Digital",
+              "Business Model Canvas Template",
+              "StartupNation - Entrepreneurship community",
+              "How to Start a Startup",
+              "Caderno do Empreendedor",
+              "Mapa do ecossistema",
+              "Capacitação em negócios",
+              "Startup Portugal",
+              "AICEP",
+              "IAPMEI",
             ],
             courses: [
               "Entrepreneurship 101: Who is Your Customer?",
@@ -116,7 +133,29 @@ createApp({
 
             ],
             guides: [
-
+              "7 Effective Ways to Lead Teams",
+              "The Secrets of Great Teamwork",
+              "The ultimate guide to creating a successful startup team",
+              "How To Build Customer Loyalty: Five Strategies For Small Businesses",
+              "Guia para a Inovação",
+              "Product Strategy for Startups in 2023",
+              "10 Tips to help you boost team performance",
+              "Porto Digital",
+              "15 Strategies for Quickly Expanding Your Business",
+              "All About Market Potential: How to Analyze Market Potential",
+              "Guia do Empreendedor",
+              "Manual do Empreendedor",
+              "The 10 Most Popular Startup Revenue Models",
+              "7 Different Business Model Ideas for Your Startup",
+              "Guia para Plano de Negócios",
+              "3 Apps to Help You Write a Business Plan",
+              "Business Models For Startups: Choose The Best One",
+              "Criar e Consolidar Empresas (G)Locais passo a passo",
+              "8 Types of business models & the value they deliver",
+              "Revolut Business Model: How Does UK's Most Valuable Private Tech Startup Work?",
+              "Investigação & desenvolvimento: Ecossistema da UP",
+              "Associação Portuguesa de Capital de Risco",
+              "Listagem de Business Angels",
             ],
             funding: [
 
@@ -510,18 +549,6 @@ createApp({
             image: ""
           },
           {
-            title: "The Secrets of Great Teamwork",
-            author: "",
-            url: "https://hbr.org/2016/06/the-secrets-of-great-teamwork",
-            image: ""
-          },
-          {
-            title: "The ultimate guide to creating a successful startup team",
-            author: "",
-            url: "https://fastercapital.com/content/The-ultimate-guide-to-creating-a-successful-startup-team.html",
-            image: ""
-          },
-          {
             title: "How To Build Customer Loyalty: Five Strategies For Small Businesses",
             author: "Sagar Tarawade",
             url: "https://www.forbes.com/sites/forbesbusinesscouncil/2021/06/21/how-to-build-customer-loyalty-five-strategies-for-small-businesses/?sh=387fa91d7e97",
@@ -582,7 +609,7 @@ createApp({
             image: ""
           },
           {
-            title: "Revolut Business Model: How Does UK’s Most Valuable Private Tech Startup Work?",
+            title: "Revolut Business Model: How Does UK's Most Valuable Private Tech Startup Work?",
             author: "Nikhil Bansal",
             url: "https://www.apptunix.com/blog/revolut-business-model/",
             image: ""
