@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Entrepreneurial Act - Resultado</title>
   <link rel="stylesheet" href="./styles/main.css" />
 </head>
 
@@ -86,8 +86,7 @@
               <div class="contentItem__slider">
                 <div class="swiper" :class="`swiper-${contentItem.id}`">
                   <div class="swiper-wrapper">
-                    <div class="slide swiper-slide" v-for="content in content[contentItem.id]"
-                      :key="content.title">
+                    <div class="slide swiper-slide" v-for="content in content[contentItem.id]" :key="content.title">
                       <a class="slide__container" :href="content.url" target="_blank">
                         <figure class="slide__image">
                           <img :src="content.image || contentItem.image" :alt="content.title">

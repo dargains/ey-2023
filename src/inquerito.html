@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Entrepreneurial Act - Inquérito</title>
   <link rel="stylesheet" href="./styles/main.css" />
 </head>
 
@@ -43,7 +43,8 @@
                 <h3 class="quizCard__title">{{questions[activeQuestion].title}}</h3>
               </header>
               <ul class="quizCard__answerList">
-                <li class="quizCard__answer" v-for="(answer, aindex) in questions[activeQuestion].answers" :key="answer">
+                <li class="quizCard__answer" v-for="(answer, aindex) in questions[activeQuestion].answers"
+                  :key="answer">
                   <div class="checkbox__container">
                     <input class="checkbox__input" type="radio" :name="`answer${activeQuestion}`"
                       :id="`answer${activeQuestion}${aindex}`" v-model="questions[activeQuestion].answered"
@@ -59,12 +60,13 @@
                     voltar
                   </span>
                 </button>
-                <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
-                  @click="handleFinishQuiz" v-if="activeQuestion === questions.length - 1">
+                <button class="button button--primary"
+                  :class="{'button--disabled': !questions[activeQuestion].answered}" @click="handleFinishQuiz"
+                  v-if="activeQuestion === questions.length - 1">
                   Terminar inquérito
                 </button>
-                <button class="button button--primary" :class="{'button--disabled': !questions[activeQuestion].answered}"
-                  @click="handleGoForward" v-else>
+                <button class="button button--primary"
+                  :class="{'button--disabled': !questions[activeQuestion].answered}" @click="handleGoForward" v-else>
                   avançar
                 </button>
                 <div class="quizCard__pagination">
@@ -95,7 +97,7 @@
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
