@@ -1348,7 +1348,6 @@ createApp({
       for (group in selectedContent) {
         result[group] = selectedContent[group].map(((item) => this.baseContent[group].find(copy => copy.title === item)))
       }
-      console.log(result)
       return result
     }
   },
