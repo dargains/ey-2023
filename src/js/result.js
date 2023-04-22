@@ -85,7 +85,7 @@ createApp({
             toolkits: [
               "Toolkit Porto Digital",
               "Business Model Canvas Template",
-              "StartupNation - Entrepreneurship community",
+              "Entrepreneurship community",
               "How to Start a Startup",
               "Caderno do Empreendedor",
               "Mapa do ecossistema",
@@ -108,7 +108,6 @@ createApp({
               "Entrepreneurship 101: Who is your customer?",
               "Essentials of Entrepreneurship: Thinking & Action",
               "Developing An Entrepreneurial Mindset: First Step Towards Success"
-
             ]
           }
         },
@@ -127,10 +126,36 @@ createApp({
           },
           content: {
             multimedia: [
-
+              "Marketing Break",
+              "Bitalk",
+              "The Consumer VC",
+              "The Root Causes of Product Failure",
+              "This Is Product Management",
+              "3 ways to create a work culture that brings out the best in employees",
+              "How to Get Meetings with Investors and Raise Money",
+              "Masters of Scale",
+              "How To Find Product Market Fit",
+              "Modern Startup Marketing",
+              "Startup Business Models and Pricing",
+              "How to Start a Startup - Youtube",
+              "Start Now. Cry Later",
+              "The Tim Ferriss Show",
+              "The School of Greatness",
+              "The GaryVee Audio Experience",
+              "Do Zero ao Topo",
+              "The Power of Vulnerability",
+              "The Happy Secret to Better Work",
+              "How Great Leaders Inspire Action",
+              "The Lean Startup"
             ],
             books: [
-
+              "The Lean Startup",
+              "Agile Product Management with Scrum: Creating Products that Customers Love",
+              "Zero To One - Notes On Start Ups, Or How To Build The Future",
+              "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
+              "Startup: Manual Do Empreendedor",
+              "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+              "Value Proposition Design"
             ],
             guides: [
               "7 Effective Ways to Lead Teams",
@@ -140,7 +165,7 @@ createApp({
               "Guia para a Inovação",
               "Product Strategy for Startups in 2023",
               "10 Tips to help you boost team performance",
-              "Porto Digital",
+              "Toolkit",
               "15 Strategies for Quickly Expanding Your Business",
               "All About Market Potential: How to Analyze Market Potential",
               "Guia do Empreendedor",
@@ -158,13 +183,35 @@ createApp({
               "Listagem de Business Angels",
             ],
             funding: [
-
+              "Startup Voucher",
+              "Portugal Ventures",
+              "Road2WebSummit",
+              "200M",
             ],
             toolkits: [
-
+              "One Stop Shop",
+              "Start & Scale Guide",
+              "GrowthHackers",
+              "Trello - Project management tool",
+              "LivePlan",
+              "Innovation Scoring",
             ],
             courses: [
-
+              "Entrepreneurial Strategic Management",
+              "Marketing in a Digital World",
+              "Social Entrepreneurship",
+              "Entrepreneurship: Raising Startup Capital",
+              "Entrepreneurship: Bootstrapping Your Business",
+              "New Enterprises",
+              "Entrepreneurial Operations: Launching a Startup",
+              "Social Media Advertising",
+              "New Venture Finance: Startup Funding for Entrepreneurs",
+              "Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies",
+              "Strategic Innovation: Managing Innovation Initiatives",
+              "Developing the Opportunity",
+              "The Carlson-Polizzotto Method of Value Creation",
+              "Entrepreneurship Series by Stanford Graduate School of Business",
+              "Growth Tribe",
             ]
           }
         },
@@ -183,22 +230,50 @@ createApp({
           },
           content: {
             multimedia: [
-
+              "The Product Podcast",
+              "HBR IdeaCast",
+              "Kirsty Nathoo - Managing Startup Finances",
+              "The Full Ratchet",
+              "Key Success Factors To Build A Successful International Startup | Marc Kegelaers | TEDxUHasselt",
+              "Lessons from a startup that scaled up | Kurtis McBride | TEDxUW",
+              "The Tony Robbins Podcast",
+              "The James Altucher Show",
+              "The Pitch",
+              "a16z",
+              "Conversas com Norte",
+              "Marketing FutureCast",
+              "How to Build a Business That Lasts 100 Years",
+              "The Art of Innovation",
             ],
             books: [
-
+              "Positioning: The Battle for Your Mind",
+              "Startup CFO: The Finance Handbook For Your Growing Business",
+              "Scaling Up: How a Few Companies Make It...and Why the Rest Don't",
+              "The Innovator's Dilemma",
+              "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
+              "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
             ],
             guides: [
-
+              "5 Strategies to Expand Your Products & Services",
+              "Employee Feedback: The Key to Retention During the Great Resignation",
+              "Os 10 passos para a internacionalizar o seu negócio",
             ],
             funding: [
-
+              "Eficiência Coletiva e Clusters",
+              "Programa para atrair talento",
+              "Business Abroad",
+              "The Growth Program",
             ],
             toolkits: [
-
+              "MIT Technology Review",
+              "Innovation Management",
+              "Harvard Business Review",
+              "Strategyzer",
+              "Comparador de mercados",
             ],
             courses: [
-
+              "Scaling Up Your Venture Without Screwing Up",
+              "Technology Entrepreneurship",
             ]
           }
         }
@@ -342,7 +417,7 @@ createApp({
           {
             title: "Harvard i-lab | Entrepreneurship 101 with Gordon Jones",
             author: "",
-            url: "https://www.youtube.com/watch?v=7Io",
+            url: "https://www.youtube.com/watch?v=7IoBUOsy_ew",
             image: ""
           },
           {
@@ -363,6 +438,186 @@ createApp({
             url: "https://www.youtube.com/watch?v=I_6AVRGLXGA",
             image: ""
           },
+          {
+            title: "Marketing Break",
+            author: "",
+            url: "https://www.break.marketing/inicio-podcast",
+            image: ""
+          },
+          {
+            title: "The Consumer VC",
+            author: "",
+            url: "https://theconsumervc.com/",
+            image: ""
+          },
+          {
+            title: "The Root Causes of Product Failure",
+            author: "Marty Cagan",
+            url: "https://www.youtube.com/watch?v=9dccd8lihpQ&list=RDQMhfVwKdbCZG0&index=13",
+            image: ""
+          },
+          {
+            title: "This Is Product Management",
+            author: null,
+            url: "https://tipm.feedbackloop.com/",
+            image: ""
+          },
+          {
+            title: "3 ways to create a work culture that brings out the best in employees",
+            author: "Chris White",
+            url: "https://www.youtube.com/watch?v=2y8SA6cLUys",
+            image: ""
+          },
+          {
+            title: "How to Get Meetings with Investors and Raise Money",
+            author: "Aaron Harris",
+            url: "https://www.youtube.com/watch?v=Jzz4AEIddzY",
+            image: ""
+          },
+          {
+            title: "Masters of Scale",
+            author: null,
+            url: "https://mastersofscale.com/",
+            image: ""
+          },
+          {
+            title: "How To Find Product Market Fit",
+            author: "David Rusenko",
+            url: "https://www.youtube.com/watch?v=0LNQxT9LvM0",
+            image: ""
+          },
+          {
+            title: "Startup Business Models and Pricing",
+            author: null,
+            url: "https://www.youtube.com/watch?v=oWZbWzAyHAE",
+            image: ""
+          },
+          {
+            title: "The Tim Ferriss Show",
+            author: null,
+            url: "https://tim.blog/podcast/",
+            image: ""
+          },
+          {
+            title: "The School of Greatness",
+            author: null,
+            url: "https://lewishowes.com/sogpodcast/",
+            image: ""
+          },
+          {
+            title: "The GaryVee Audio Experience",
+            author: null,
+            url: "https://www.garyvaynerchuk.com/podcast/",
+            image: ""
+          },
+          {
+            title: "Do Zero ao Topo",
+            author: null,
+            url: "https://open.spotify.com/show/48ljM9qIbODhemJ7lLGjeR",
+            image: ""
+          },
+          {
+            title: "The Power of Vulnerability",
+            author: "Brene Brown",
+            url: "https://www.ted.com/talks/brene_brown_the_power_of_vulnerability",
+            image: ""
+          },
+          {
+            title: "The Happy Secret to Better Work",
+            author: "Shawn Achor",
+            url: "https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work",
+            image: ""
+          },
+          {
+            title: "How Great Leaders Inspire Action",
+            author: "Simon Sinek",
+            url: "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
+            image: ""
+          },
+          {
+            title: "The Product Podcast",
+            author: null,
+            url: "https://productschool.com/product-podcast/",
+            image: ""
+          },
+          {
+            title: "HBR IdeaCast",
+            author: null,
+            url: "https://hbr.org/2018/01/podcast-ideacast",
+            image: ""
+          },
+          {
+            title: "Kirsty Nathoo - Managing Startup Finances",
+            author: "",
+            url: "https://www.youtube.com/watch?v=LBC16jhiwak",
+            image: ""
+          },
+          {
+            title: "The Full Ratchet",
+            author: "",
+            url: "https://fullratchet.net/podcast-episodes/",
+            image: ""
+          },
+          {
+            title: "Key Success Factors To Build A Successful International Startup | Marc Kegelaers | TEDxUHasselt",
+            author: "",
+            url: "https://www.youtube.com/watch?v=jWsKHhc9-T4",
+            image: ""
+          },
+          {
+            title: "Lessons from a startup that scaled up | Kurtis McBride | TEDxUW",
+            author: "",
+            url: "https://www.youtube.com/watch?v=m4MjzBSCLx0",
+            image: ""
+          },
+          {
+            title: "The Tony Robbins Podcast",
+            author: "",
+            url: "https://www.tonyrobbins.com/podcasts/",
+            image: ""
+          },
+          {
+            title: "The James Altucher Show",
+            author: "",
+            url: "https://jamesaltucher.com/podcasts/",
+            image: ""
+          },
+          {
+            title: "The Pitch",
+            author: "",
+            url: "https://www.gimletmedia.com/the-pitch",
+            image: ""
+          },
+          {
+            title: "a16z",
+            author: "",
+            url: "https://future.com/a16z-podcast/",
+            image: ""
+          },
+          {
+            title: "Conversas com Norte",
+            author: "",
+            url: "https://anchor.fm/conversas-com-norte",
+            image: ""
+          },
+          {
+            title: "Marketing FutureCast",
+            author: "",
+            url: "https://open.spotify.com/show/4hwJiWpVYKrWf6ZB19Pzs2",
+            image: ""
+          },
+          {
+            title: "How to Build a Business That Lasts 100 Years",
+            author: "",
+            url: "https://www.ted.com/talks/martin_reeves_how_to_build_a_business_that_lasts_100_years",
+            image: ""
+          },
+          {
+            title: "The Art of Innovation",
+            author: "",
+            url: "https://www.youtube.com/watch?v=Mtjatz9r-Vc",
+            image: ""
+          }
 
         ],
         books: [
@@ -427,7 +682,7 @@ createApp({
             image: "assets/images/content/books/startupcfo.jpeg"
           },
           {
-            title: "Scaling Up: How a Few Companies Make It...and Why the Rest Don't, Rockefeller Habits 2.0",
+            title: "Scaling Up: How a Few Companies Make It...and Why the Rest Don't",
             author: "Verne Harnish",
             url: "https://www.goodreads.com/book/show/22212880-scaling-up",
             image: "assets/images/content/books/scalingup.jpeg"
@@ -748,6 +1003,12 @@ createApp({
             url: "https://thegrowthprogram.pt/",
             image: ""
           },
+          {
+            title: "IAPMEI",
+            author: "",
+            url: "https://financiamento.iapmei.pt/inicio/home",
+            image: ""
+          },
         ],
         toolkits: [
           {
@@ -870,6 +1131,12 @@ createApp({
             url: "https://www.portugalexporta.pt/produtos-e-servicos/informacao-de-mercado/comparador-mercados",
             image: ""
           },
+          {
+            title: "How to Start a Startup",
+            author: "Startup Class",
+            url: "http://startupclass.samaltman.com/",
+            image: ""
+          }
         ],
         courses: [
           {
@@ -1080,6 +1347,7 @@ createApp({
       for (group in selectedContent) {
         result[group] = selectedContent[group].map(((item) => this.baseContent[group].find(copy => copy.title === item)))
       }
+      console.log(result)
       return result
     }
   },
