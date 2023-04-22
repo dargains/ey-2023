@@ -1336,6 +1336,7 @@ createApp({
   },
   computed: {
     level() {
+      console.log(decodeURIComponent(window.location.search.split('=')[1]))
       return decodeURIComponent(window.location.search.split('=')[1])
     },
     selectedCopy() {
