@@ -288,31 +288,31 @@ createApp({
         {
           id: "books",
           label: "Livros",
-          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          description: "Inspire-se nas histórias fascinantes que permitiram aos empreendedores alcançar o sucessoperiências",
           image: "assets/images/content_books.jpg"
         },
         {
           id: "guides",
           label: "Guias",
-          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          description: "Encontre insights, estratégias e perspetivas valiosas para aplicar no seu negócio",
           image: "assets/images/content_guides.jpg"
         },
         {
           id: "funding",
           label: "Funding",
-          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          description: "Aceda aos principais programas portugueses e europeus de financiamento, incubação e formação",
           image: "assets/images/content_funding.jpg"
         },
         {
           id: "toolkits",
           label: "Toolkits",
-          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          description: "Explore recursos, ferramentas e comunidades úteis para a materialização da estratégia da sua empresa",
           image: "assets/images/content_toolkits.jpg"
         },
         {
           id: "courses",
           label: "Cursos",
-          description: "Construa capacidades e conhecimentos com os maiores especialistas da área, através da sua partilha de experiências",
+          description: "Explore um conjunto de cursos e formações direcionadas para a capacitação de empreendedores",
           image: "assets/images/content_courses.jpg"
         },
       ],
