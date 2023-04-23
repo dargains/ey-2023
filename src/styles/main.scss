@@ -43,3 +43,14 @@ body {
 .hiddenPage {
   opacity: 0;
 }
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}

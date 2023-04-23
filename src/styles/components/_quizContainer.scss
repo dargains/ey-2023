@@ -1,8 +1,9 @@
 .quizContainer {
   min-height: calc(100vh - $headerHeight);
-  padding: 80px 56px;
+  padding: 12vh 56px;
   background-image: url("../../src/assets/images/quiz_background.jpg");
   align-content: stretch;
+
   .wrapper {
     padding: 0;
     width: 100%;

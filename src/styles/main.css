@@ -344,7 +344,7 @@ table {
 
 .quizContainer {
   min-height: calc(100vh - 108px);
-  padding: 80px 56px;
+  padding: 12vh 56px;
   background-image: url("../../src/assets/images/quiz_background.jpg");
   align-content: stretch;
 }
@@ -868,4 +868,15 @@ body {
 
 .hiddenPage {
   opacity: 0;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-up.active {
+  opacity: 1;
+  transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
