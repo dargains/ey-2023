@@ -379,9 +379,10 @@ table {
   .checkbox__label::before {
     width: 20px;
     height: 20px;
+    top: 4px;
   }
   .checkbox__label::after {
-    top: 3px;
+    top: 0;
   }
 }
 
@@ -561,11 +562,11 @@ table {
 }
 @media screen and (max-width: 1024px) {
   .quizCard {
-    padding: 56px 0 32px 0;
+    padding: 48px 0 32px 0;
   }
   .quizCard__closeButton {
-    top: 16px;
-    right: 16px;
+    top: 12px;
+    right: 12px;
   }
   .quizCard__header {
     height: auto;
@@ -581,6 +582,8 @@ table {
   }
   .quizCard__answerList {
     margin: 24px auto;
+    width: 100%;
+    padding: 0 24px 0 32px;
   }
   .quizCard__answer {
     font-size: 14px;
@@ -592,6 +595,23 @@ table {
   }
   .quizCard__pagination {
     font-size: 12px;
+  }
+  .quizCard__hiddenCardWrapper {
+    width: 100%;
+    padding: 24px 0;
+  }
+  .quizCard__hiddenCardTitle {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+  }
+  .quizCard__hiddenCardText {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 24px;
+  }
+  .quizCard .buttonContainer {
+    margin-top: 40px;
   }
 }
 

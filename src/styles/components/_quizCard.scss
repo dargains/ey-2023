@@ -139,11 +139,11 @@
   }
 
   @include mobile {
-    padding: 56px 0 32px 0;
+    padding: 48px 0 32px 0;
 
     &__closeButton {
-      top: 16px;
-      right: 16px;
+      top: 12px;
+      right: 12px;
     }
 
     &__header {
@@ -163,6 +163,8 @@
 
     &__answerList {
       margin: 24px auto;
+      width: 100%;
+      padding: 0 24px 0 32px;
     }
 
     &__answer {
@@ -177,6 +179,27 @@
 
     &__pagination {
       font-size: 12px;
+    }
+
+    &__hiddenCardWrapper {
+      width: 100%;
+      padding: 24px 0;
+    }
+
+    &__hiddenCardTitle {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 40px;
+    }
+
+    &__hiddenCardText {
+      font-size: 14px;
+      line-height: 18px;
+      margin-top: 24px;
+    }
+
+    .buttonContainer {
+      margin-top: 40px;
     }
   }
 }

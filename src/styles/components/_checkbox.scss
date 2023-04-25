@@ -56,10 +56,11 @@
       &::before {
         width: 20px;
         height: 20px;
+        top: 4px;
       }
 
       &::after {
-        top: 3px;
+        top: 0;
       }
     }
   }
