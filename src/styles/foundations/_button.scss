@@ -35,6 +35,12 @@
     opacity: .5;
     pointer-events: none;
   }
+
+  @include mobile {
+    height: 40px;
+    font-size: 12px;
+    padding: 0 16px;
+  }
 }
 
 .button--back {

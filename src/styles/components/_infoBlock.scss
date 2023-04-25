@@ -33,12 +33,38 @@
   &__backImage {
     background-color: $secondary-color;
     width: 90%;
-    height: 50%;
+    height: 200px;
     display: block;
     position: absolute;
-    top: auto !important;
-    bottom: 40px;
+    top: 250px !important;
     left: -40px !important;
     z-index: 1;
+  }
+
+  @include mobile {
+    &__textBlock {
+      grid-column: 1 / 7;
+      grid-row: 2 /3;
+      padding: 24px;
+      padding-top: 80px;
+    }
+
+    &__figureBlock {
+      grid-column: 1 / 7;
+      grid-row: 1 /2;
+
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+
+    &__backImage {
+      top: 230px !important;
+      left: 40px !important;
+      z-index: 1;
+      max-width: 520px;
+
+    }
   }
 }

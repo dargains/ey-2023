@@ -13,7 +13,11 @@
     color: $white;
   }
 
-  &__rightContainer {}
+  &__rightContainer {
+    min-width: 176px;
+    display: flex;
+    justify-content: flex-end;
+  }
 
   &__text {
     color: $white;
@@ -35,5 +39,20 @@
     transform: rotate(-90deg);
     top: -14px;
     right: -120px;
+  }
+
+  @include mobile {
+    padding: 24px 0;
+
+    &__text {
+      &--large {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    .animatedArrow {
+      display: none;
+    }
   }
 }

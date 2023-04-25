@@ -41,6 +41,7 @@
   &__logos {
     display: flex;
     gap: 24px;
+    margin-bottom: 112px;
   }
 
   .animatedArrow {
@@ -48,5 +49,23 @@
     bottom: 16px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  @include mobile {
+    min-height: calc(100vh - $headerHeightMobile);
+
+    &__title {
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    &__logos {
+      flex-direction: column;
+    }
   }
 }

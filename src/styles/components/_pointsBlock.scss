@@ -31,4 +31,10 @@
       left: 0;
     }
   }
+
+  @include mobile {
+    .wrapper {
+      flex-direction: column;
+    }
+  }
 }

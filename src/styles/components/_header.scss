@@ -9,4 +9,20 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  @include mobile {
+    height: $headerHeightMobile;
+
+    a:first-of-type {
+      width: 110px;
+    }
+
+    a:last-of-type {
+      width: 100px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
