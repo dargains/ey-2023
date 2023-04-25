@@ -1318,14 +1318,23 @@ createApp({
     }
   },
   mounted() {
+    const isMobile = window.innerWidth <= 1024;
     this.$el.classList.remove("hiddenPage")
     this.groups.forEach(({ id }) => {
       new Swiper('.swiper-' + id, {
-        slidesPerView: 4,
-        spaceBetween: 8,
+        slidesPerView: isMobile ? 'auto' : 4,
+        slidesPerGroup: 1,
+        spaceBetween: isMobile ? 0 : 8,
+        centeredSlides: isMobile,
         navigation: {
+          enabled: !isMobile,
           nextEl: '.swiper-button-next-' + id,
           prevEl: '.swiper-button-prev-' + id,
+        },
+        pagination: {
+          enabled: isMobile,
+          el: '.swiper-pagination-' + id,
+          clickable: true,
         },
       });
     })

@@ -10,6 +10,7 @@
 
     .contentItem__arrowButton {
       transform: rotate(180deg);
+      filter: brightness(0) invert(1);
     }
 
     .contentItem__contentContainer {
@@ -84,5 +85,52 @@
 
   &__slider {
     padding: 52px;
+  }
+
+  @include mobile {
+    &__header {
+      grid-template-columns: 1fr;
+      grid-template-rows: 100px 1fr;
+      height: auto;
+    }
+
+    &__image {
+      transform: scaleX(100%);
+      grid-row: 1 /2;
+    }
+
+    &__imageBack {
+      // width: 100%;
+      transform: scaleX(100%);
+    }
+
+    &__label {
+      font-size: 50px;
+      line-height: 62px;
+      padding-left: 24px;
+    }
+
+    &__description {
+      font-size: 14px;
+      line-height: 18px;
+      background-color: $white;
+      padding: 18px 80px 18px 24px;
+    }
+
+    &__arrowButton {
+      position: absolute;
+      right: 16px;
+      bottom: 16px;
+      width: 32px;
+      filter: none;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__slider {
+      padding: 16px 0 40px 0;
+    }
   }
 }

@@ -39,7 +39,7 @@
   @include mobile {
     height: 40px;
     font-size: 12px;
-    padding: 0 16px;
+    padding: 0 24px;
   }
 }
 
@@ -65,4 +65,9 @@
   gap: 24px;
   align-items: center;
   justify-content: center;
+
+  @include mobile {
+    flex-direction: column;
+    gap: 16px;
+  }
 }

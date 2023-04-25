@@ -1,5 +1,7 @@
 :root {
   --swiper-navigation-sides-offset: 5%;
+  --swiper-pagination-bottom: 16px;
+  --swiper-pagination-color: #{$primary-color};
 }
 
 .swiper {
@@ -7,6 +9,10 @@
 
   .swiper-slide {
     height: auto;
+
+    @include mobile {
+      width: 238px;
+    }
   }
 }
 
@@ -56,5 +62,23 @@
 
   &__author {
     line-height: 20px;
+  }
+
+  @include mobile {
+    &__image {
+      // width: 100%;
+    }
+  }
+
+}
+
+@include mobile {
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
   }
 }

@@ -222,7 +222,7 @@ table {
   .button {
     height: 40px;
     font-size: 12px;
-    padding: 0 16px;
+    padding: 0 24px;
   }
 }
 
@@ -249,6 +249,12 @@ table {
   gap: 24px;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+  .buttonContainer {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 .header {
@@ -280,6 +286,16 @@ table {
 .footer {
   padding: 48px 0;
   background-color: #9B50D4;
+  color: #fff;
+}
+.footer--small {
+  font-size: 24px;
+  line-height: 30px;
+}
+.footer--large {
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
 }
 .footer .wrapper {
   display: flex;
@@ -287,25 +303,10 @@ table {
   align-items: center;
   gap: 32px;
 }
-.footer__leftContainer {
-  color: #fff;
-}
 .footer__rightContainer {
-  min-width: 176px;
+  min-width: 180px;
   display: flex;
   justify-content: flex-end;
-}
-.footer__text {
-  color: #fff;
-}
-.footer__text--small {
-  font-size: 24px;
-  line-height: 30px;
-}
-.footer__text--large {
-  font-size: 38px;
-  line-height: 48px;
-  text-transform: uppercase;
 }
 .footer .animatedArrow {
   position: absolute;
@@ -317,9 +318,15 @@ table {
   .footer {
     padding: 24px 0;
   }
-  .footer__text--large {
+  .footer--small, .footer--large {
     font-size: 14px;
     line-height: 18px;
+  }
+  .footer--small .wrapper {
+    flex-direction: column;
+  }
+  .footer--small .footer__rightContainer {
+    justify-content: center;
   }
   .footer .animatedArrow {
     display: none;
@@ -388,6 +395,12 @@ table {
 }
 .animatedArrow__border {
   top: -20px;
+}
+@media screen and (max-width: 1024px) {
+  .animatedArrow {
+    transform: scale(0.7);
+    transform-origin: left;
+  }
 }
 
 @keyframes bounce {
@@ -901,6 +914,36 @@ table {
   left: 50%;
   transform: translateX(-50%);
 }
+@media screen and (max-width: 1024px) {
+  .resultsHero {
+    padding: 24px 0 0 0;
+  }
+  .resultsHero__container {
+    padding: 24px;
+    padding-bottom: 72px;
+  }
+  .resultsHero__textContainer {
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .resultsHero__image {
+    display: none;
+  }
+  .resultsHero__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 32px;
+  }
+  .resultsHero__bulletsContainer {
+    margin: 32px 0;
+  }
+  .resultsHero .animatedArrow {
+    bottom: -80px;
+    filter: brightness(0) invert(1);
+    transform: scale(0.7) translateX(-50%);
+  }
+}
 
 .contentGroup {
   padding: 32px 0;
@@ -919,6 +962,7 @@ table {
 }
 .contentItem--expanded .contentItem__arrowButton {
   transform: rotate(180deg);
+  filter: brightness(0) invert(1);
 }
 .contentItem--expanded .contentItem__contentContainer {
   max-height: 640px;
@@ -983,9 +1027,49 @@ table {
 .contentItem__slider {
   padding: 52px;
 }
+@media screen and (max-width: 1024px) {
+  .contentItem__header {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr;
+    height: auto;
+  }
+  .contentItem__image {
+    transform: scaleX(100%);
+    grid-row: 1/2;
+  }
+  .contentItem__imageBack {
+    transform: scaleX(100%);
+  }
+  .contentItem__label {
+    font-size: 50px;
+    line-height: 62px;
+    padding-left: 24px;
+  }
+  .contentItem__description {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #fff;
+    padding: 18px 80px 18px 24px;
+  }
+  .contentItem__arrowButton {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 32px;
+    filter: none;
+  }
+  .contentItem__arrowButton img {
+    width: 100%;
+  }
+  .contentItem__slider {
+    padding: 16px 0 40px 0;
+  }
+}
 
 :root {
   --swiper-navigation-sides-offset: 5%;
+  --swiper-pagination-bottom: 16px;
+  --swiper-pagination-color: #6450FC;
 }
 
 .swiper {
@@ -993,6 +1077,11 @@ table {
 }
 .swiper .swiper-slide {
   height: auto;
+}
+@media screen and (max-width: 1024px) {
+  .swiper .swiper-slide {
+    width: 238px;
+  }
 }
 
 .swiper-button-prev::after,
@@ -1037,7 +1126,15 @@ table {
 .slide__author {
   line-height: 20px;
 }
-
+@media screen and (max-width: 1024px) {
+  .swiper {
+    width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}
 body {
   background-color: #F5F5F5;
   color: #646464;
