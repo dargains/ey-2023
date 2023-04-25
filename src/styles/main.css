@@ -845,7 +845,7 @@ table {
   z-index: 1;
 }
 .spiralBlock__text {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 24px;
   line-height: 30px;
   color: #fff;
@@ -854,15 +854,17 @@ table {
 }
 @media screen and (max-width: 1024px) {
   .spiralBlock {
-    padding: 40px 0 100px 0;
-    margin: 40px 0;
+    padding: 96px 0 24px 0;
+    margin: 40px 12px 0 12px;
+    background-image: url("../assets/images/spiral_arrow_mobile.svg");
   }
   .spiralBlock .wrapper {
     gap: 32px;
+    top: -96px;
   }
   .spiralBlock__block {
-    width: 226px;
-    height: auto;
+    width: 90%;
+    height: 148px;
     padding: 24px;
   }
   .spiralBlock__number {
@@ -871,9 +873,9 @@ table {
     left: -8px;
   }
   .spiralBlock__text {
-    font-size: 12px;
-    line-height: 15px;
-    margin-left: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 40px;
     font-weight: normal;
   }
 }
