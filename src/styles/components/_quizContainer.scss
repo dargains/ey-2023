@@ -1,8 +1,9 @@
 .quizContainer {
   min-height: calc(100vh - $headerHeight);
   padding: 12vh 56px;
-  background-image: url("../assets/images/quiz_background.jpg");
+  background-image: url("../assets/images/quiz_background.svg");
   align-content: stretch;
+  background-size: cover;
 
   .wrapper {
     padding: 0;
@@ -11,5 +12,6 @@
 
   @include mobile {
     min-height: calc(100vh - $headerHeightMobile);
+    padding: 40px 24px;
   }
 }

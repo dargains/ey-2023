@@ -63,7 +63,7 @@
                 <button class="button button--primary"
                   :class="{'button--disabled': !questions[activeQuestion].answered}" @click="handleFinishQuiz"
                   v-if="activeQuestion === questions.length - 1">
-                  Terminar inquérito
+                  Terminar
                 </button>
                 <button class="button button--primary"
                   :class="{'button--disabled': !questions[activeQuestion].answered}" @click="handleGoForward" v-else>

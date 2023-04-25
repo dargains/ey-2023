@@ -53,6 +53,11 @@
   font-size: 16px;
   gap: 12px;
   font-family: Radikal;
+
+  @include mobile {
+    transform: scale(0.7);
+    transform-origin: left;
+  }
 }
 
 .buttonContainer {

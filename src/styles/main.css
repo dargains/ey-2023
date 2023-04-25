@@ -237,6 +237,12 @@ table {
   gap: 12px;
   font-family: Radikal;
 }
+@media screen and (max-width: 1024px) {
+  .button--back {
+    transform: scale(0.7);
+    transform-origin: left;
+  }
+}
 
 .buttonContainer {
   display: flex;
@@ -359,6 +365,18 @@ table {
   width: 34px;
   height: 24px;
 }
+@media screen and (max-width: 1024px) {
+  .checkbox__label {
+    padding-left: 48px;
+  }
+  .checkbox__label::before {
+    width: 20px;
+    height: 20px;
+  }
+  .checkbox__label::after {
+    top: 3px;
+  }
+}
 
 .animatedArrow {
   display: flex;
@@ -393,8 +411,9 @@ table {
 .quizContainer {
   min-height: calc(100vh - 108px);
   padding: 12vh 56px;
-  background-image: url("../assets/images/quiz_background.jpg");
+  background-image: url("../assets/images/quiz_background.svg");
   align-content: stretch;
+  background-size: cover;
 }
 .quizContainer .wrapper {
   padding: 0;
@@ -403,6 +422,7 @@ table {
 @media screen and (max-width: 1024px) {
   .quizContainer {
     min-height: calc(100vh - 78px);
+    padding: 40px 24px;
   }
 }
 
@@ -525,6 +545,41 @@ table {
 .quizCard__hiddenCardText {
   font-size: 24px;
   margin-top: 40px;
+}
+@media screen and (max-width: 1024px) {
+  .quizCard {
+    padding: 56px 0 32px 0;
+  }
+  .quizCard__closeButton {
+    top: 16px;
+    right: 16px;
+  }
+  .quizCard__header {
+    height: auto;
+    padding: 8px 24px;
+  }
+  .quizCard__number {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .quizCard__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .quizCard__answerList {
+    margin: 24px auto;
+  }
+  .quizCard__answer {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .quizCard__footer {
+    padding: 0 24px;
+    grid-template-columns: 80px 1fr 80px;
+  }
+  .quizCard__pagination {
+    font-size: 12px;
+  }
 }
 
 .hero {

@@ -49,4 +49,19 @@
     }
   }
 
+  @include mobile {
+    &__label {
+      padding-left: 48px;
+
+      &::before {
+        width: 20px;
+        height: 20px;
+      }
+
+      &::after {
+        top: 3px;
+      }
+    }
+  }
+
 }

@@ -41,7 +41,7 @@ createApp({
           answered: null
         },
         {
-          title: 'Qual o nível de experiência dos fundadores/empreendedores?',
+          title: 'Qual o nível de experiência dos fundadores / empreendedores?',
           answers: [
             'Inexistente, é a primeira experiência empreendedora',
             'Detêm algum nível de experiência empreendedora prévia',
