@@ -664,6 +664,7 @@ table {
 @media screen and (max-width: 1024px) {
   .hero {
     min-height: calc(100vh - 78px);
+    padding: 48px 0 40px 0;
   }
   .hero__title {
     font-size: 30px;
@@ -672,9 +673,19 @@ table {
   .hero__subtitle {
     font-size: 24px;
     line-height: 30px;
+    width: 60%;
   }
   .hero__logos {
     flex-direction: column;
+    margin-bottom: 64px;
+    width: 102px;
+  }
+  .hero__logos img {
+    width: 100%;
+  }
+  .hero .animatedArrow {
+    bottom: 8px;
+    transform: scale(0.7) translateX(-50%);
   }
 }
 
