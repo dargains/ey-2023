@@ -7,6 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url('../assets/images/hero.jpg');
 
   .wrapper {
     display: flex;
@@ -54,6 +55,7 @@
   @include mobile {
     min-height: calc(100vh - $headerHeightMobile);
     padding: 48px 0 40px 0;
+    background-image: url('../assets/images/hero_mobile.jpg');
 
     &__title {
       font-size: 30px;
