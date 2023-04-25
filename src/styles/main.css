@@ -718,11 +718,16 @@ table {
   z-index: 1;
 }
 @media screen and (max-width: 1024px) {
+  .infoBlock {
+    padding: 40px 0;
+  }
   .infoBlock__textBlock {
     grid-column: 1/7;
     grid-row: 2/3;
     padding: 24px;
     padding-top: 80px;
+    font-size: 14px;
+    line-height: 18px;
   }
   .infoBlock__figureBlock {
     grid-column: 1/7;
@@ -856,7 +861,7 @@ table {
     gap: 32px;
   }
   .spiralBlock__block {
-    width: 210px;
+    width: 226px;
     height: auto;
     padding: 24px;
   }
