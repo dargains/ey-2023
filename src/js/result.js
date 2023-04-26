@@ -1251,7 +1251,7 @@ createApp({
             title: "New Enterprises",
             author: "MIT OpenCourseWare",
             url: "https://ocw.mit.edu/courses/sloan-school-of-management/15-390-new-enterprises-spring-2013/index.htm",
-            image: ""
+            image: "mit"
           },
           {
             title: "Entrepreneurial Operations: Launching a Startup",
@@ -1299,13 +1299,13 @@ createApp({
             title: "Entrepreneurship Series by Stanford Graduate School of Business",
             author: "Stanford",
             url: "https://www.youtube.com/watch?v=86unGITRPLs",
-            image: ""
+            image: "stanford"
           },
           {
             title: "Growth Tribe",
             author: "",
             url: "https://growthtribe.io/",
-            image: ""
+            image: "growthtribe"
           },
           {
             title: "Scaling Up Your Venture Without Screwing Up",
