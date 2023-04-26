@@ -13,5 +13,6 @@
   @include mobile {
     min-height: calc(100vh - $headerHeightMobile);
     padding: 40px 24px;
+    background-image: url("../assets/images/quiz_background_mobile.svg");
   }
 }

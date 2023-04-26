@@ -437,6 +437,7 @@ table {
   .quizContainer {
     min-height: calc(100vh - 78px);
     padding: 40px 24px;
+    background-image: url("../assets/images/quiz_background_mobile.svg");
   }
 }
 
