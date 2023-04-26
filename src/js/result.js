@@ -442,49 +442,49 @@ createApp({
             title: "Marketing Break",
             author: "",
             url: "https://www.break.marketing/inicio-podcast",
-            image: ""
+            image: "marketingbreak"
           },
           {
             title: "The Consumer VC",
             author: "",
             url: "https://theconsumervc.com/",
-            image: ""
+            image: "theconsumervc"
           },
           {
             title: "The Root Causes of Product Failure",
             author: "Marty Cagan",
             url: "https://www.youtube.com/watch?v=9dccd8lihpQ&list=RDQMhfVwKdbCZG0&index=13",
-            image: ""
+            image: "therootcauses"
           },
           {
             title: "This Is Product Management",
             author: null,
             url: "https://tipm.feedbackloop.com/",
-            image: ""
+            image: "thisisproductmanagement"
           },
           {
             title: "3 ways to create a work culture that brings out the best in employees",
             author: "Chris White",
             url: "https://www.youtube.com/watch?v=2y8SA6cLUys",
-            image: ""
+            image: "3waysticreate"
           },
           {
             title: "How to Get Meetings with Investors and Raise Money",
             author: "Aaron Harris",
             url: "https://www.youtube.com/watch?v=Jzz4AEIddzY",
-            image: ""
+            image: "howtogetmeetings"
           },
           {
             title: "Masters of Scale",
             author: null,
             url: "https://mastersofscale.com/",
-            image: ""
+            image: "mastersofscale"
           },
           {
             title: "How To Find Product Market Fit",
             author: "David Rusenko",
             url: "https://www.youtube.com/watch?v=0LNQxT9LvM0",
-            image: ""
+            image: "howtofindproductmarketfit"
           },
           {
             title: "Startup Business Models and Pricing",
@@ -496,43 +496,43 @@ createApp({
             title: "The Tim Ferriss Show",
             author: null,
             url: "https://tim.blog/podcast/",
-            image: ""
+            image: "thetimferrissshow"
           },
           {
             title: "The School of Greatness",
             author: null,
             url: "https://lewishowes.com/sogpodcast/",
-            image: ""
+            image: "theschoolofgreatness"
           },
           {
             title: "The GaryVee Audio Experience",
             author: null,
             url: "https://www.garyvaynerchuk.com/podcast/",
-            image: ""
+            image: "thegaryveeaudioexperience"
           },
           {
             title: "Do Zero ao Topo",
             author: null,
             url: "https://open.spotify.com/show/48ljM9qIbODhemJ7lLGjeR",
-            image: ""
+            image: "dozeroaotopo"
           },
           {
             title: "The Power of Vulnerability",
             author: "Brene Brown",
             url: "https://www.ted.com/talks/brene_brown_the_power_of_vulnerability",
-            image: ""
+            image: "thepowerofvulnerability"
           },
           {
             title: "The Happy Secret to Better Work",
             author: "Shawn Achor",
             url: "https://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work",
-            image: ""
+            image: "thehappysecret"
           },
           {
             title: "How Great Leaders Inspire Action",
             author: "Simon Sinek",
             url: "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
-            image: ""
+            image: "howgreatleaders"
           },
           {
             title: "The Product Podcast",
