@@ -1105,31 +1105,31 @@ createApp({
             title: "MIT Technology Review",
             author: "",
             url: "https://www.technologyreview.com/",
-            image: ""
+            image: "mit"
           },
           {
             title: "Innovation Management",
             author: "",
             url: "https://www.innovationmanagement.se/",
-            image: ""
+            image: "innovationmanagement"
           },
           {
             title: "Harvard Business Review",
             author: "",
             url: "https://hbr.org/",
-            image: ""
+            image: "harvard"
           },
           {
             title: "Strategyzer",
             author: "",
             url: "https://www.strategyzer.com/",
-            image: ""
+            image: "strategyzer"
           },
           {
             title: "Comparador de mercados",
             author: "AICEP",
             url: "https://www.portugalexporta.pt/produtos-e-servicos/informacao-de-mercado/comparador-mercados",
-            image: ""
+            image: "comparadordemercados"
           },
           {
             title: "How to Start a Startup",
