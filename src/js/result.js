@@ -1143,109 +1143,109 @@ createApp({
             title: "Entrepreneurship 101: Who is Your Customer?",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurship-1",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Starting a Business",
             author: "Udemy",
             url: "https://www.udemy.com/course/starting-a-business-101/",
-            image: ""
+            image: "assets/images/content/courses/udemy.jpg"
           },
           {
             title: "How to Build a Startup",
             author: "Udacity",
             url: "https://www.udacity.com/course/how-to-build-a-startup--ep245",
-            image: ""
+            image: "assets/images/content/courses/udacity.jpg"
           },
           {
             title: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
             author: "Coursera",
             url: "https://www.coursera.org/learn/innovative-ideas",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Business Model Canvas: A Tool for Entrepreneurs and Innovators",
             author: "Coursera",
             url: "https://www.coursera.org/learn/business-model-canvas",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Business Model Canvas",
             author: "Skillshare",
             url: "https://www.skillshare.com/browse/business-model-canvas",
-            image: ""
+            image: "assets/images/content/courses/skillshare.jpg"
           },
           {
             title: "Time-to-start-your-startup",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-foundations-2",
-            image: ""
+            image: "assets/images/content/courses/linkedin.jpg"
           },
           {
             title: "Entrepreneurial Mindset",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurial-mindset",
-            image: ""
+            image: "assets/images/content/courses/edx.jpg"
           },
           {
             title: "Entrepreneurship Specialization",
             author: "Coursera",
             url: "https://www.coursera.org/specializations/wharton-entrepreneurship",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Becoming an Entrepreneur",
             author: "EDX",
             url: "https://www.edx.org/course/becoming-an-entrepreneur",
-            image: ""
+            image: "assets/images/content/courses/edx.jpg"
           },
           {
             title: "Entrepreneurship 101: Who is your customer?",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurship-101-who-is-your-customer",
-            image: ""
+            image: "assets/images/content/courses/edx.jpg"
           },
           {
             title: "Essentials of Entrepreneurship: Thinking & Action",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-thinking",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Developing An Entrepreneurial Mindset: First Step Towards Success",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-mindset",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Entrepreneurial Strategic Management",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-strategic-management",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Marketing in a Digital World",
             author: "Coursera",
             url: "https://www.coursera.org/learn/marketing-digital",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Social Entrepreneurship",
             author: "Coursera",
             url: "https://www.coursera.org/learn/social-entrepreneurship",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Entrepreneurship: Raising Startup Capital",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-raising-startup-capital",
-            image: ""
+            image: "assets/images/content/courses/linkedin.jpg"
           },
           {
             title: "Entrepreneurship: Bootstrapping Your Business",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-bootstrapping-your-business",
-            image: ""
+            image: "assets/images/content/courses/linkedin.jpg"
           },
           {
             title: "New Enterprises",
@@ -1257,61 +1257,67 @@ createApp({
             title: "Entrepreneurial Operations: Launching a Startup",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurial-operations-launching-a-startup",
-            image: ""
+            image: "assets/images/content/courses/edx.jpg"
           },
           {
             title: "Social Media Advertising",
             author: "Coursera",
             url: "https://www.coursera.org/learn/social-media-advertising",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "New Venture Finance: Startup Funding for Entrepreneurs",
             author: "Coursera",
             url: "https://www.coursera.org/learn/startup-funding",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurship-development",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Strategic Innovation: Managing Innovation Initiatives",
             author: "Coursera",
             url: "https://www.coursera.org/learn/strategic-innovation-innovation-at-the-frontier",
-            image: ""
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Developing the Opportunity",
             author: "Coursera",
-            url: "https://www.coursera.org/learn/wharton-entrepreneurship-opportunity"
+            url: "https://www.coursera.org/learn/wharton-entrepreneurship-opportunity",
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "The Carlson-Polizzotto Method of Value Creation",
             author: "Innovation for Impact (i4i)",
-            url: "https://www.coursera.org/learn/valuecreation"
+            url: "https://www.coursera.org/learn/valuecreation",
+            image: ""
           },
           {
             title: "Entrepreneurship Series by Stanford Graduate School of Business",
             author: "Stanford",
-            url: "https://www.youtube.com/watch?v=86unGITRPLs"
+            url: "https://www.youtube.com/watch?v=86unGITRPLs",
+            image: ""
           },
           {
             title: "Growth Tribe",
             author: "",
-            url: "https://growthtribe.io/"
+            url: "https://growthtribe.io/",
+            image: ""
           },
           {
             title: "Scaling Up Your Venture Without Screwing Up",
             author: "Coursera",
-            url: "https://www.coursera.org/learn/scaling-up-your-venture-without-screwing-up"
+            url: "https://www.coursera.org/learn/scaling-up-your-venture-without-screwing-up",
+            image: "assets/images/content/courses/coursera.jpg"
           },
           {
             title: "Technology Entrepreneurship",
             author: "EDX",
-            url: "https://www.edx.org/course/technology-entrepreneurship-founding-a-start-up-3"
+            url: "https://www.edx.org/course/technology-entrepreneurship-founding-a-start-up-3",
+            image: "assets/images/content/courses/edx.jpg"
           },
         ]
       }
