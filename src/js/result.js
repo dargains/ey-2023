@@ -965,7 +965,7 @@ createApp({
             title: "Portugal Ventures",
             author: "",
             url: "https://www.portugalventures.pt/",
-            image: ""
+            image: "portugalventures"
           },
           {
             title: "Road2WebSummit",
@@ -977,7 +977,7 @@ createApp({
             title: "200M",
             author: "",
             url: "https://www.200m.pt/",
-            image: ""
+            image: "200m"
           },
           {
             title: "Eficiência Coletiva e Clusters",
@@ -1073,33 +1073,33 @@ createApp({
           },
           {
             title: "Start & Scale Guide",
-            author: "",
+            author: "Porto Digital",
             url: "https://www.portodigital.pt/wp-content/uploads/2020/05/startscaleguide.pdf",
-            image: ""
+            image: "startandscaleguide"
           },
           {
             title: "GrowthHackers",
             author: "",
             url: "https://growthhackers.com/",
-            image: ""
+            image: "growthhackers"
           },
           {
             title: "Trello - Project management tool",
             author: "",
             url: "https://trello.com/",
-            image: ""
+            image: "trello"
           },
           {
             title: "LivePlan",
             author: "",
             url: "https://www.liveplan.com/",
-            image: ""
+            image: "liveplan"
           },
           {
             title: "Innovation Scoring",
             author: "",
             url: "https://www.innovationscoring.pt/",
-            image: ""
+            image: "innovationscoring"
           },
           {
             title: "MIT Technology Review",
