@@ -322,121 +322,121 @@ createApp({
             title: "How to Plan an MVP",
             author: "Michael Seibel",
             url: "https://www.youtube.com/watch?v=1hHMwLxN6EM",
-            image: "assets/images/content/multimedia/howtoplanamvp.jpg"
+            image: "howtoplanamvp.jpg"
           },
           {
             title: "Bitalk",
             author: "",
             url: "https://bitalk.pt/home",
-            image: "assets/images/content/multimedia/bitalk.jpg"
+            image: "bitalk.jpg"
           },
           {
             title: "The single biggest reason why start-ups succeed",
             author: "Bill Gross",
             url: "https://www.youtube.com/watch?v=bNpx7gpSqbY",
-            image: "assets/images/content/multimedia/thesinglebiggestreason.jpg"
+            image: "thesinglebiggestreason.jpg"
           },
           {
             title: "Productivityist",
             author: "",
             url: "https://productivityist.com/category/podcast/",
-            image: "assets/images/content/multimedia/Productivityist.jpg"
+            image: "Productivityist.jpg"
           },
           {
             title: "Modern Startup Marketing",
             author: "Anna Furmanov",
             url: "https://podcasts.apple.com/us/podcast/modern-startup-marketing/id1534533276",
-            image: "assets/images/content/multimedia/modernstartupmarketing.jpg"
+            image: "modernstartupmarketing.jpg"
           },
           {
             title: "Modelo de Negócio",
             author: "IAPMEI",
             url: "https://www.youtube.com/watch?v=bmMspXAZkP0",
-            image: "assets/images/content/multimedia/modelodenegocio.jpg"
+            image: "modelodenegocio.jpg"
           },
           {
             title: "Business Plan Writing 101: Wharton Entrepreneurship Series",
             author: "Patrick FitzGerald",
             url: "https://www.youtube.com/watch?v=zlrb_X6fYZ0",
-            image: "assets/images/content/multimedia/businessplawriting101.jpg"
+            image: "businessplawriting101.jpg"
           },
           {
             title: "The Side Hustle Show",
             author: "Nick Loper",
             url: "https://www.sidehustlenation.com/side-hustle-show/",
-            image: "assets/images/content/multimedia/thesidehustleshow.jpg"
+            image: "thesidehustleshow.jpg"
           },
           {
             title: "How I Built This",
             author: "",
             url: "https://www.npr.org/podcasts/510313/how-i-built-this",
-            image: "assets/images/content/multimedia/howibuiltthis.jpg"
+            image: "howibuiltthis.jpg"
           },
           {
             title: "Entrepreneurs on Fire",
             author: "",
             url: "https://www.eofire.com/",
-            image: "assets/images/content/multimedia/EntrepreneursonFire.jpg"
+            image: "EntrepreneursonFire.jpg"
           },
           {
             title: "Mixergy",
             author: "",
             url: "https://mixergy.com/",
-            image: "assets/images/content/multimedia/Mixergy.jpg"
+            image: "Mixergy.jpg"
           },
           {
             title: "How to Start a Startup - Podcast",
             author: "Sam Altman",
             url: "https://open.spotify.com/show/7AcBdjWl2s4brEcW7YKVWf",
-            image: "assets/images/content/multimedia/howtostartastartup.jpg"
+            image: "howtostartastartup.jpg"
           },
           {
             title: "Start Now. Cry Later",
             author: "",
             url: "https://open.spotify.com/show/7fEglWUCXIsXuDTiFKC1hp",
-            image: "assets/images/content/multimedia/startnowcrylater.jpg"
+            image: "startnowcrylater.jpg"
           },
           {
             title: "Why the best hire might not have the perfect resume",
             author: "Regina Hartley",
             url: "https://www.ted.com/talks/regina_hartley_why_the_best_hire_might_not_have_the_perfect_resume",
-            image: "assets/images/content/multimedia/whythebesthire.jpg"
+            image: "whythebesthire.jpg"
           },
           {
             title: "How to Start a Startup - Youtube",
             author: "Sam Altman",
             url: "https://www.youtube.com/watch?v=CBYhVcO4WgI",
-            image: "assets/images/content/multimedia/howtostartastartup.jpg"
+            image: "howtostartastartup.jpg"
           },
           {
             title: "The Surprising Habits of Original Thinkers",
             author: "Adam Grant",
             url: "https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers",
-            image: "assets/images/content/multimedia/thesurprisinghabits.jpg"
+            image: "thesurprisinghabits.jpg"
           },
           {
             title: "Harvard i-lab | Entrepreneurship 101 with Gordon Jones",
             author: "",
             url: "https://www.youtube.com/watch?v=7IoBUOsy_ew",
-            image: "assets/images/content/multimedia/harvardilab.jpg"
+            image: "harvardilab.jpg"
           },
           {
             title: "The Lean Startup",
             author: "Eric Ries",
             url: "https://www.youtube.com/watch?v=fEvKo90qBns",
-            image: "assets/images/content/multimedia/theleanstartup.jpg"
+            image: "theleanstartup.jpg"
           },
           {
             title: "Business Model Canvas Tutorial",
             author: "",
             url: "https://www.youtube.com/watch?v=QoAOzMTLP5s",
-            image: "assets/images/content/multimedia/businessmodelcanvas.jpg"
+            image: "businessmodelcanvas.jpg"
           },
           {
             title: "How to Conduct a SWOT Analysis",
             author: "",
             url: "https://www.youtube.com/watch?v=I_6AVRGLXGA",
-            image: "assets/images/content/multimedia/howtoconductaswotanalysis.jpg"
+            image: "howtoconductaswotanalysis.jpg"
           },
           {
             title: "Marketing Break",
@@ -625,85 +625,85 @@ createApp({
             title: "The Lean Startup",
             author: "Eric Ries",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/content/books/theleanstartup.png"
+            image: "theleanstartup.png"
           },
           {
             title: "Zero To One - Notes On Start Ups, Or How To Build The Future",
             author: "Blake Masters e Peter Thiel",
             url: "https://www.goodreads.com/book/show/10127019-the-lean-startup",
-            image: "assets/images/content/books/zerotoone.jpeg"
+            image: "zerotoone.jpeg"
           },
           {
             title: "Disciplined Entrepreneurship: 24 Steps to a Successful Startup",
             author: "Bill Aulet",
             url: "https://www.goodreads.com/book/show/18652777-disciplined-entrepreneurship",
-            image: "assets/images/content/books/Disciplined Entrepreneurship.jpeg"
+            image: "Disciplined Entrepreneurship.jpeg"
           },
           {
             title: "Rich Dad, Poor Dad",
             author: "Robert T. Kiyosaki, Sharon L. Lechter",
             url: "https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad",
-            image: "assets/images/content/books/richdadpoordad.jpeg"
+            image: "richdadpoordad.jpeg"
           },
           {
             title: "Startup: Manual Do Empreendedor",
             author: "Steve Blank e Bob Dorf",
             url: "https://www.goodreads.com/book/show/28015259-startup",
-            image: "assets/images/content/books/startupmanualdoempreendedor.jpeg"
+            image: "startupmanualdoempreendedor.jpeg"
           },
           {
             title: "Agile Product Management with Scrum: Creating Products that Customers Love",
             author: "Roman Pichler",
             url: "https://www.goodreads.com/book/show/7950745-agile-product-management-with-scrum",
-            image: "assets/images/content/books/agileproductmanagementwithscrum.jpeg"
+            image: "agileproductmanagementwithscrum.jpeg"
           },
           {
             title: "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
             author: "Alexander Osterwalder",
             url: "https://www.goodreads.com/book/show/7935732-business-model-generation",
-            image: "assets/images/content/books/BusinessModelGeneration.jpeg"
+            image: "BusinessModelGeneration.jpeg"
           },
           {
             title: "Value Proposition Design",
             author: "Alexander Osterwalder, Yves Pigneur, Patricia Papadakos, Gregory Bernarda, Alan Smith, Nguyễn Thụy Khánh Chương",
             url: "https://www.goodreads.com/book/show/22337524-value-proposition-design",
-            image: "assets/images/content/books/valuepropositiondesign.jpeg"
+            image: "valuepropositiondesign.jpeg"
           },
           {
             title: "Positioning: The Battle for Your Mind",
             author: "Philip Kotler, Al Ries, Jack Trout",
             url: "https://www.goodreads.com/book/show/760025.Positioning",
-            image: "assets/images/content/books/positioning.jpeg"
+            image: "positioning.jpeg"
           },
           {
             title: "Startup CFO: The Finance Handbook For Your Growing Business",
             author: "Kyle Brennan",
             url: "https://www.goodreads.com/book/show/43596288-startup-cfo",
-            image: "assets/images/content/books/startupcfo.jpeg"
+            image: "startupcfo.jpeg"
           },
           {
             title: "Scaling Up: How a Few Companies Make It...and Why the Rest Don't",
             author: "Verne Harnish",
             url: "https://www.goodreads.com/book/show/22212880-scaling-up",
-            image: "assets/images/content/books/scalingup.jpeg"
+            image: "scalingup.jpeg"
           },
           {
             title: "The Innovator's Dilemma",
             author: "Clayton M. Christensen, L.J. Ganser",
             url: "https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma",
-            image: "assets/images/content/books/theinnovatorsdilemma.jpeg"
+            image: "theinnovatorsdilemma.jpeg"
           },
           {
             title: "Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity",
             author: "Kim Malone Scott",
             url: "https://www.goodreads.com/book/show/44300042-radical-candor",
-            image: "assets/images/content/books/radicalcandor.jpeg"
+            image: "radicalcandor.jpeg"
           },
           {
             title: "Building a StoryBrand: Clarify Your Message So Customers Will Listen",
             author: "Donald Miller",
             url: "https://www.goodreads.com/book/show/34460583-building-a-storybrand",
-            image: "assets/images/content/books/buildingastorybrand.jpeg"
+            image: "buildingastorybrand.jpeg"
           },
         ],
         guides: [
@@ -711,19 +711,19 @@ createApp({
             title: "Criar e Consolidar Empresas (G)Locais passo a passo",
             author: "",
             url: "https://www.iapmei.pt/getattachment/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Guias-e-Manuais-de-Apoio/CriarConsolidarPassoaPasso.pdf.aspx?lang=pt-PT",
-            image: "assets/images/content/guides/glocal.jpg"
+            image: "glocal.jpg"
           },
           {
             title: "Incubadoras Certificadas",
             author: "",
             url: "https://www.iapmei.pt/getattachment/Paginas/StartUP-Visa-pt/StartUP-Visa_Incubadoras-Certificadas_PUB_2021_03marco.pdf.aspx?lang=pt-PT",
-            image: "assets/images/content/guides/rni.jpg"
+            image: "rni.jpg"
           },
           {
             title: "The ultimate guide to creating a successful startup team",
             author: "",
             url: "https://fastercapital.com/content/The-ultimate-guide-to-creating-a-successful-startup-team.html",
-            image: "assets/images/content/guides/fastercapital.jpg"
+            image: "fastercapital.jpg"
           },
           {
             title: "The Secrets of Great Teamwork",
@@ -741,7 +741,7 @@ createApp({
             title: "Guia para a Inovação",
             author: "Porto Digital",
             url: "https://www.portodigital.pt/wp-content/uploads/2020/06/Guia-para-a-Inovac%CC%A7a%CC%83o_spread.pdf",
-            image: "assets/images/content/guides/guiaparaainovacao.jpg"
+            image: "guiaparaainovacao.jpg"
           },
           {
             title: "9 Steps to Help You Start a Startup",
@@ -759,19 +759,19 @@ createApp({
             title: "Guia do Empreendedor",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/GuiaEmpreendedor_sd.aspx",
-            image: "assets/images/content/guides/guiadoempreendedor.jpg"
+            image: "guiadoempreendedor.jpg"
           },
           {
             title: "Manual do Empreendedor",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/ManualEmpreendedor_sd.aspx",
-            image: "assets/images/content/guides/manualdoempreendedor.jpg"
+            image: "manualdoempreendedor.jpg"
           },
           {
             title: "Guia para Plano de Negócios",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Documentos-Financiamento/ComoElaborarPlanodeNegocioGuiaExplicativo.aspx",
-            image: "assets/images/content/guides/guiaparaplanodenegocios.jpg"
+            image: "guiaparaplanodenegocios.jpg"
           },
           {
             title: "3 Apps to Help You Write a Business Plan",
@@ -783,13 +783,13 @@ createApp({
             title: "Investigação & desenvolvimento: Ecossistema da UP",
             author: "",
             url: "https://www.up.pt/portal/pt/investigar/ecossistema-de-investigacao/unidades-de-id/",
-            image: "assets/images/content/guides/ecossitemadaup.jpg"
+            image: "ecossitemadaup.jpg"
           },
           {
             title: "Associação Portuguesa de Capital de Risco",
             author: "",
             url: "https://www.apcri.pt/associados/",
-            image: "assets/images/content/guides/apcri.jpg"
+            image: "apcri.jpg"
           },
           {
             title: "Listagem de Business Angels",
@@ -825,7 +825,7 @@ createApp({
             title: "Toolkit",
             author: "Porto Digital",
             url: "https://www.portodigital.pt/wp-content/uploads/2020/05/TOOLKIT_v2_issuu-compressed.pdf",
-            image: "assets/images/content/guides/toolkit.jpg"
+            image: "toolkit.jpg"
           },
           {
             title: "15 Strategies for Quickly Expanding Your Business",
@@ -1143,109 +1143,109 @@ createApp({
             title: "Entrepreneurship 101: Who is Your Customer?",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurship-1",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Starting a Business",
             author: "Udemy",
             url: "https://www.udemy.com/course/starting-a-business-101/",
-            image: "assets/images/content/courses/udemy.jpg"
+            image: "udemy.jpg"
           },
           {
             title: "How to Build a Startup",
             author: "Udacity",
             url: "https://www.udacity.com/course/how-to-build-a-startup--ep245",
-            image: "assets/images/content/courses/udacity.jpg"
+            image: "udacity.jpg"
           },
           {
             title: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship",
             author: "Coursera",
             url: "https://www.coursera.org/learn/innovative-ideas",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Business Model Canvas: A Tool for Entrepreneurs and Innovators",
             author: "Coursera",
             url: "https://www.coursera.org/learn/business-model-canvas",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Business Model Canvas",
             author: "Skillshare",
             url: "https://www.skillshare.com/browse/business-model-canvas",
-            image: "assets/images/content/courses/skillshare.jpg"
+            image: "skillshare.jpg"
           },
           {
             title: "Time-to-start-your-startup",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-foundations-2",
-            image: "assets/images/content/courses/linkedin.jpg"
+            image: "linkedin.jpg"
           },
           {
             title: "Entrepreneurial Mindset",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurial-mindset",
-            image: "assets/images/content/courses/edx.jpg"
+            image: "edx.jpg"
           },
           {
             title: "Entrepreneurship Specialization",
             author: "Coursera",
             url: "https://www.coursera.org/specializations/wharton-entrepreneurship",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Becoming an Entrepreneur",
             author: "EDX",
             url: "https://www.edx.org/course/becoming-an-entrepreneur",
-            image: "assets/images/content/courses/edx.jpg"
+            image: "edx.jpg"
           },
           {
             title: "Entrepreneurship 101: Who is your customer?",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurship-101-who-is-your-customer",
-            image: "assets/images/content/courses/edx.jpg"
+            image: "edx.jpg"
           },
           {
             title: "Essentials of Entrepreneurship: Thinking & Action",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-thinking",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Developing An Entrepreneurial Mindset: First Step Towards Success",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-mindset",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Entrepreneurial Strategic Management",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurial-strategic-management",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Marketing in a Digital World",
             author: "Coursera",
             url: "https://www.coursera.org/learn/marketing-digital",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Social Entrepreneurship",
             author: "Coursera",
             url: "https://www.coursera.org/learn/social-entrepreneurship",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Entrepreneurship: Raising Startup Capital",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-raising-startup-capital",
-            image: "assets/images/content/courses/linkedin.jpg"
+            image: "linkedin.jpg"
           },
           {
             title: "Entrepreneurship: Bootstrapping Your Business",
             author: "Linkedin",
             url: "https://www.linkedin.com/learning/entrepreneurship-bootstrapping-your-business",
-            image: "assets/images/content/courses/linkedin.jpg"
+            image: "linkedin.jpg"
           },
           {
             title: "New Enterprises",
@@ -1257,37 +1257,37 @@ createApp({
             title: "Entrepreneurial Operations: Launching a Startup",
             author: "EDX",
             url: "https://www.edx.org/course/entrepreneurial-operations-launching-a-startup",
-            image: "assets/images/content/courses/edx.jpg"
+            image: "edx.jpg"
           },
           {
             title: "Social Media Advertising",
             author: "Coursera",
             url: "https://www.coursera.org/learn/social-media-advertising",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "New Venture Finance: Startup Funding for Entrepreneurs",
             author: "Coursera",
             url: "https://www.coursera.org/learn/startup-funding",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies",
             author: "Coursera",
             url: "https://www.coursera.org/learn/entrepreneurship-development",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Strategic Innovation: Managing Innovation Initiatives",
             author: "Coursera",
             url: "https://www.coursera.org/learn/strategic-innovation-innovation-at-the-frontier",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Developing the Opportunity",
             author: "Coursera",
             url: "https://www.coursera.org/learn/wharton-entrepreneurship-opportunity",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "The Carlson-Polizzotto Method of Value Creation",
@@ -1311,13 +1311,13 @@ createApp({
             title: "Scaling Up Your Venture Without Screwing Up",
             author: "Coursera",
             url: "https://www.coursera.org/learn/scaling-up-your-venture-without-screwing-up",
-            image: "assets/images/content/courses/coursera.jpg"
+            image: "coursera.jpg"
           },
           {
             title: "Technology Entrepreneurship",
             author: "EDX",
             url: "https://www.edx.org/course/technology-entrepreneurship-founding-a-start-up-3",
-            image: "assets/images/content/courses/edx.jpg"
+            image: "edx.jpg"
           },
         ]
       }
@@ -1362,6 +1362,10 @@ createApp({
       const result = {}
       for (group in selectedContent) {
         result[group] = selectedContent[group].map(((item) => this.baseContent[group].find(copy => copy.title === item)))
+        result[group].forEach(item => {
+          const imageName = item.image
+          item.image = imageName && `assets/images/content/${group}/${imageName}`
+        })
       }
       return result
     }
