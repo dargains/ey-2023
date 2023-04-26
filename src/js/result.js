@@ -711,19 +711,19 @@ createApp({
             title: "Criar e Consolidar Empresas (G)Locais passo a passo",
             author: "",
             url: "https://www.iapmei.pt/getattachment/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Guias-e-Manuais-de-Apoio/CriarConsolidarPassoaPasso.pdf.aspx?lang=pt-PT",
-            image: "assets/images/content/guides/iapmei.png"
+            image: "assets/images/content/guides/glocal.jpg"
           },
           {
             title: "Incubadoras Certificadas",
             author: "",
             url: "https://www.iapmei.pt/getattachment/Paginas/StartUP-Visa-pt/StartUP-Visa_Incubadoras-Certificadas_PUB_2021_03marco.pdf.aspx?lang=pt-PT",
-            image: "assets/images/content/guides/rni.png"
+            image: "assets/images/content/guides/rni.jpg"
           },
           {
             title: "The ultimate guide to creating a successful startup team",
             author: "",
             url: "https://fastercapital.com/content/The-ultimate-guide-to-creating-a-successful-startup-team.html",
-            image: "assets/images/content/guides/fastercapital.png"
+            image: "assets/images/content/guides/fastercapital.jpg"
           },
           {
             title: "The Secrets of Great Teamwork",
@@ -741,7 +741,7 @@ createApp({
             title: "Guia para a Inovação",
             author: "Porto Digital",
             url: "https://www.portodigital.pt/wp-content/uploads/2020/06/Guia-para-a-Inovac%CC%A7a%CC%83o_spread.pdf",
-            image: ""
+            image: "assets/images/content/guides/guiaparaainovacao.jpg"
           },
           {
             title: "9 Steps to Help You Start a Startup",
@@ -759,19 +759,19 @@ createApp({
             title: "Guia do Empreendedor",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/GuiaEmpreendedor_sd.aspx",
-            image: "assets/images/content/guides/guiadoempreendedor.png"
+            image: "assets/images/content/guides/guiadoempreendedor.jpg"
           },
           {
             title: "Manual do Empreendedor",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/DOCS_Emp/ManualEmpreendedor_sd.aspx",
-            image: "assets/images/content/guides/manualdoempreendedor.png"
+            image: "assets/images/content/guides/manualdoempreendedor.jpg"
           },
           {
             title: "Guia para Plano de Negócios",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo/Documentos-Financiamento/ComoElaborarPlanodeNegocioGuiaExplicativo.aspx",
-            image: "assets/images/content/guides/guiaparaplanodenegocios.png"
+            image: "assets/images/content/guides/guiaparaplanodenegocios.jpg"
           },
           {
             title: "3 Apps to Help You Write a Business Plan",
@@ -783,13 +783,13 @@ createApp({
             title: "Investigação & desenvolvimento: Ecossistema da UP",
             author: "",
             url: "https://www.up.pt/portal/pt/investigar/ecossistema-de-investigacao/unidades-de-id/",
-            image: ""
+            image: "assets/images/content/guides/ecossitemadaup.jpg"
           },
           {
             title: "Associação Portuguesa de Capital de Risco",
             author: "",
             url: "https://www.apcri.pt/associados/",
-            image: ""
+            image: "assets/images/content/guides/apcri.jpg"
           },
           {
             title: "Listagem de Business Angels",
