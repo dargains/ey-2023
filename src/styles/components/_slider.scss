@@ -44,7 +44,6 @@
     height: 280px;
     width: 190px;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 
@@ -52,6 +51,7 @@
 
   &__image {
     background-color: $gray;
+    align-items: center;
     img {
       width: 100%;
       object-fit: cover;
@@ -64,8 +64,8 @@
     p {
       padding: 0 16px 0 40px;
       font-weight: 700;
-      font-size: 20px;
-      line-height: 25px;
+      font-size: 16px;
+      line-height: 24px;
     }
     &::before {
       content: "";

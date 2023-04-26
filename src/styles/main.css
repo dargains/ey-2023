@@ -1162,12 +1162,12 @@ table {
   height: 280px;
   width: 190px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .slide__image {
   background-color: #C4C4C4;
+  align-items: center;
 }
 .slide__image img {
   width: 100%;
@@ -1181,8 +1181,8 @@ table {
 .slide__genericImage p {
   padding: 0 16px 0 40px;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .slide__genericImage::before {
   content: "";
