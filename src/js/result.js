@@ -983,25 +983,25 @@ createApp({
             title: "Eficiência Coletiva e Clusters",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Eficiencia-Coletiva-e-Clusters.aspx",
-            image: ""
+            image: "eficienciacoletivaeclusters"
           },
           {
             title: "Programa para atrair talento",
             author: "IAPMEI",
             url: "https://www.iapmei.pt/PRODUTOS-E-SERVICOS/Empreendedorismo-Inovacao/Empreendedorismo-(1)/Tech-Visa.aspx",
-            image: ""
+            image: "programaparaatrairtalento"
           },
           {
             title: "Business Abroad",
             author: "",
             url: "https://startupportugal.com/pt/programs/business-abroad/",
-            image: ""
+            image: "businessabroad"
           },
           {
             title: "The Growth Program",
             author: "",
             url: "https://thegrowthprogram.pt/",
-            image: ""
+            image: "thegrowthprogram"
           },
           {
             title: "IAPMEI",
