@@ -38,18 +38,45 @@
     display: block;
   }
 
-  &__image {
+  &__image,
+  &__genericImage {
     margin-bottom: 8px;
-    background-color: $gray;
     height: 280px;
     width: 190px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 
+  }
+
+  &__image {
+    background-color: $gray;
     img {
       width: 100%;
       object-fit: cover;
       flex: 1;
+    }
+  }
+
+  &__genericImage {
+    background-color: $white;
+    p {
+      padding: 0 16px 0 40px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    &::before {
+      content: "";
+      display: block;
+      border: 7px solid $primary-color;
+      border-right: 0;
+      height: 80%;
+      width: 50%;
+      position: absolute;
+      top: 8%;
+      left: 12px;
     }
   }
 

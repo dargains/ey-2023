@@ -1157,19 +1157,43 @@ table {
   height: 100%;
   display: block;
 }
-.slide__image {
+.slide__image, .slide__genericImage {
   margin-bottom: 8px;
-  background-color: #C4C4C4;
   height: 280px;
   width: 190px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
+}
+.slide__image {
+  background-color: #C4C4C4;
 }
 .slide__image img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   flex: 1;
+}
+.slide__genericImage {
+  background-color: #fff;
+}
+.slide__genericImage p {
+  padding: 0 16px 0 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.slide__genericImage::before {
+  content: "";
+  display: block;
+  border: 7px solid #6450FC;
+  border-right: 0;
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  top: 8%;
+  left: 12px;
 }
 .slide__title {
   font-weight: bold;

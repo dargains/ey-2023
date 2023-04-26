@@ -89,9 +89,12 @@
                   <div class="swiper-wrapper">
                     <div class="slide swiper-slide" v-for="content in content[contentItem.id]" :key="content.title">
                       <a class="slide__container" :href="content.url" target="_blank">
-                        <figure class="slide__image">
-                          <img :src="content.image || contentItem.image" :alt="content.title">
+                        <figure v-if="content.image" class="slide__image">
+                          <img :src="content.image" :alt="content.title">
                         </figure>
+                        <div v-else class="slide__genericImage">
+                          <p>{{content.title}}</p>
+                        </div>
                         <p class="slide__title">
                           {{content.title}}
                         </p>
