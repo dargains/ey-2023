@@ -232,10 +232,10 @@ createApp({
             multimedia: [
               "The Product Podcast",
               "HBR IdeaCast",
-              "Kirsty Nathoo - Managing Startup Finances",
+              "Managing Startup Finances",
               "The Full Ratchet",
-              "Key Success Factors To Build A Successful International Startup | Marc Kegelaers | TEDxUHasselt",
-              "Lessons from a startup that scaled up | Kurtis McBride | TEDxUW",
+              "Key Success Factors To Build A Successful International Startup",
+              "Lessons from a startup that scaled up",
               "The Tony Robbins Podcast",
               "The James Altucher Show",
               "The Pitch",
@@ -538,19 +538,19 @@ createApp({
             title: "The Product Podcast",
             author: null,
             url: "https://productschool.com/product-podcast/",
-            image: ""
+            image: "theproductpodcast"
           },
           {
             title: "HBR IdeaCast",
             author: null,
             url: "https://hbr.org/2018/01/podcast-ideacast",
-            image: ""
+            image: "hbrideacast"
           },
           {
-            title: "Kirsty Nathoo - Managing Startup Finances",
-            author: "",
+            title: "Managing Startup Finances",
+            author: "Kirsty Nathoo",
             url: "https://www.youtube.com/watch?v=LBC16jhiwak",
-            image: ""
+            image: "managingstartupfinances"
           },
           {
             title: "The Full Ratchet",
@@ -559,64 +559,64 @@ createApp({
             image: ""
           },
           {
-            title: "Key Success Factors To Build A Successful International Startup | Marc Kegelaers | TEDxUHasselt",
-            author: "",
+            title: "Key Success Factors To Build A Successful International Startup",
+            author: "Marc Kegelaers",
             url: "https://www.youtube.com/watch?v=jWsKHhc9-T4",
-            image: ""
+            image: "keysuccessfactors"
           },
           {
-            title: "Lessons from a startup that scaled up | Kurtis McBride | TEDxUW",
-            author: "",
+            title: "Lessons from a startup that scaled up",
+            author: "Kurtis McBride",
             url: "https://www.youtube.com/watch?v=m4MjzBSCLx0",
-            image: ""
+            image: "lessonsfromastartup"
           },
           {
             title: "The Tony Robbins Podcast",
             author: "",
             url: "https://www.tonyrobbins.com/podcasts/",
-            image: ""
+            image: "thetonyrobbinspodcast"
           },
           {
             title: "The James Altucher Show",
             author: "",
             url: "https://jamesaltucher.com/podcasts/",
-            image: ""
+            image: "thejamesaltuchershow"
           },
           {
             title: "The Pitch",
             author: "",
             url: "https://www.gimletmedia.com/the-pitch",
-            image: ""
+            image: "thepitch"
           },
           {
             title: "a16z",
             author: "",
             url: "https://future.com/a16z-podcast/",
-            image: ""
+            image: "a16z"
           },
           {
             title: "Conversas com Norte",
             author: "",
             url: "https://anchor.fm/conversas-com-norte",
-            image: ""
+            image: "conversascomnorte"
           },
           {
             title: "Marketing FutureCast",
             author: "",
             url: "https://open.spotify.com/show/4hwJiWpVYKrWf6ZB19Pzs2",
-            image: ""
+            image: "marketingfuturecast"
           },
           {
             title: "How to Build a Business That Lasts 100 Years",
             author: "",
             url: "https://www.ted.com/talks/martin_reeves_how_to_build_a_business_that_lasts_100_years",
-            image: ""
+            image: "howtobuildabusiness"
           },
           {
             title: "The Art of Innovation",
             author: "",
             url: "https://www.youtube.com/watch?v=Mtjatz9r-Vc",
-            image: ""
+            image: "artofinnovation"
           }
 
         ],
