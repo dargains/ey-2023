@@ -322,121 +322,121 @@ createApp({
             title: "How to Plan an MVP",
             author: "Michael Seibel",
             url: "https://www.youtube.com/watch?v=1hHMwLxN6EM",
-            image: ""
+            image: "assets/images/content/multimedia/howtoplanamvp.jpg"
           },
           {
             title: "Bitalk",
             author: "",
             url: "https://bitalk.pt/home",
-            image: ""
+            image: "assets/images/content/multimedia/bitalk.jpg"
           },
           {
             title: "The single biggest reason why start-ups succeed",
             author: "Bill Gross",
             url: "https://www.youtube.com/watch?v=bNpx7gpSqbY",
-            image: ""
+            image: "assets/images/content/multimedia/thesinglebiggestreason.jpg"
           },
           {
             title: "Productivityist",
             author: "",
             url: "https://productivityist.com/category/podcast/",
-            image: ""
+            image: "assets/images/content/multimedia/Productivityist.jpg"
           },
           {
             title: "Modern Startup Marketing",
-            author: "",
+            author: "Anna Furmanov",
             url: "https://podcasts.apple.com/us/podcast/modern-startup-marketing/id1534533276",
-            image: ""
+            image: "assets/images/content/multimedia/modernstartupmarketing.jpg"
           },
           {
             title: "Modelo de Negócio",
             author: "IAPMEI",
             url: "https://www.youtube.com/watch?v=bmMspXAZkP0",
-            image: ""
+            image: "assets/images/content/multimedia/modelodenegocio.jpg"
           },
           {
             title: "Business Plan Writing 101: Wharton Entrepreneurship Series",
-            author: "",
+            author: "Patrick FitzGerald",
             url: "https://www.youtube.com/watch?v=zlrb_X6fYZ0",
-            image: ""
+            image: "assets/images/content/multimedia/businessplawriting101.jpg"
           },
           {
             title: "The Side Hustle Show",
-            author: "",
+            author: "Nick Loper",
             url: "https://www.sidehustlenation.com/side-hustle-show/",
-            image: ""
+            image: "assets/images/content/multimedia/thesidehustleshow.jpg"
           },
           {
             title: "How I Built This",
             author: "",
             url: "https://www.npr.org/podcasts/510313/how-i-built-this",
-            image: ""
+            image: "assets/images/content/multimedia/howibuiltthis.jpg"
           },
           {
-            title: "Entrepreneur on Fire",
+            title: "Entrepreneurs on Fire",
             author: "",
             url: "https://www.eofire.com/",
-            image: ""
+            image: "assets/images/content/multimedia/EntrepreneursonFire.jpg"
           },
           {
             title: "Mixergy",
             author: "",
             url: "https://mixergy.com/",
-            image: ""
+            image: "assets/images/content/multimedia/Mixergy.jpg"
           },
           {
             title: "How to Start a Startup - Podcast",
             author: "Sam Altman",
             url: "https://open.spotify.com/show/7AcBdjWl2s4brEcW7YKVWf",
-            image: ""
+            image: "assets/images/content/multimedia/howtostartastartup.jpg"
           },
           {
             title: "Start Now. Cry Later",
             author: "",
             url: "https://open.spotify.com/show/7fEglWUCXIsXuDTiFKC1hp",
-            image: ""
+            image: "assets/images/content/multimedia/startnowcrylater.jpg"
           },
           {
             title: "Why the best hire might not have the perfect resume",
             author: "Regina Hartley",
             url: "https://www.ted.com/talks/regina_hartley_why_the_best_hire_might_not_have_the_perfect_resume",
-            image: ""
+            image: "assets/images/content/multimedia/whythebesthire.jpg"
           },
           {
             title: "How to Start a Startup - Youtube",
             author: "Sam Altman",
             url: "https://www.youtube.com/watch?v=CBYhVcO4WgI",
-            image: ""
+            image: "assets/images/content/multimedia/howtostartastartup.jpg"
           },
           {
             title: "The Surprising Habits of Original Thinkers",
             author: "Adam Grant",
             url: "https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers",
-            image: ""
+            image: "assets/images/content/multimedia/thesurprisinghabits.jpg"
           },
           {
             title: "Harvard i-lab | Entrepreneurship 101 with Gordon Jones",
             author: "",
             url: "https://www.youtube.com/watch?v=7IoBUOsy_ew",
-            image: ""
+            image: "assets/images/content/multimedia/harvardilab.jpg"
           },
           {
             title: "The Lean Startup",
             author: "Eric Ries",
             url: "https://www.youtube.com/watch?v=fEvKo90qBns",
-            image: ""
+            image: "assets/images/content/multimedia/theleanstartup.jpg"
           },
           {
             title: "Business Model Canvas Tutorial",
             author: "",
             url: "https://www.youtube.com/watch?v=QoAOzMTLP5s",
-            image: ""
+            image: "assets/images/content/multimedia/businessmodelcanvas.jpg"
           },
           {
             title: "How to Conduct a SWOT Analysis",
             author: "",
             url: "https://www.youtube.com/watch?v=I_6AVRGLXGA",
-            image: ""
+            image: "assets/images/content/multimedia/howtoconductaswotanalysis.jpg"
           },
           {
             title: "Marketing Break",
@@ -825,7 +825,7 @@ createApp({
             title: "Toolkit",
             author: "Porto Digital",
             url: "https://www.portodigital.pt/wp-content/uploads/2020/05/TOOLKIT_v2_issuu-compressed.pdf",
-            image: ""
+            image: "assets/images/content/guides/toolkit.jpg"
           },
           {
             title: "15 Strategies for Quickly Expanding Your Business",
