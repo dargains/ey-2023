@@ -28,7 +28,7 @@ createApp({
               "Business Plan Writing 101: Wharton Entrepreneurship Series",
               "The Side Hustle Show",
               "How I Built This",
-              "Entrepreneur on Fire",
+              "Entrepreneurs on Fire",
               "Mixergy",
               "How to Start a Startup - Podcast",
               "How to Start a Startup - Youtube",
