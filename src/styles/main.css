@@ -421,6 +421,14 @@ table {
   background-attachment: fixed;
   height: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .abstracts {
+    height: auto;
+  }
+  .abstracts__abstract {
+    aspect-ratio: 1/1;
+  }
+}
 
 .quizContainer {
   min-height: calc(100vh - 108px);

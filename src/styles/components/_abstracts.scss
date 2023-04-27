@@ -10,4 +10,10 @@
     background-attachment: fixed;
     height: 100%;
   }
+  @include mobile {
+    height: auto;
+    &__abstract {
+      aspect-ratio: 1/1;
+    }
+  }
 }
