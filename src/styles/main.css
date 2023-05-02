@@ -1103,8 +1103,8 @@ table {
     transform: scaleX(100%);
   }
   .contentItem__label {
-    font-size: 50px;
-    line-height: 62px;
+    font-size: 40px;
+    line-height: 48px;
     padding-left: 24px;
   }
   .contentItem__description {
@@ -1116,9 +1116,10 @@ table {
   .contentItem__arrowButton {
     position: absolute;
     right: 16px;
-    bottom: 16px;
+    bottom: auto;
+    top: 64px;
     width: 32px;
-    filter: none;
+    filter: brightness(0) invert(1);
   }
   .contentItem__arrowButton img {
     width: 100%;
