@@ -412,21 +412,46 @@ table {
 .abstracts {
   height: 288px;
   display: flex;
+  overflow: hidden;
 }
 .abstracts__abstract {
   width: 50%;
+  height: 100%;
+  overflow: hidden;
+  clip: rect(0, auto, auto, 0);
+}
+.abstracts__abstract figure {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   height: 100%;
+  width: 100%;
+  top: 0;
+}
+.abstracts__abstract:first-of-type {
+  left: 0;
+}
+.abstracts__abstract:first-of-type figure {
+  background-image: url("../assets/images/abstract1.jpg");
+}
+.abstracts__abstract:last-of-type {
+  right: 0;
+}
+.abstracts__abstract:last-of-type figure {
+  background-image: url("../assets/images/abstract2.jpg");
 }
 @media screen and (max-width: 1024px) {
   .abstracts {
     height: auto;
+    aspect-ratio: 2/1;
   }
   .abstracts__abstract {
     aspect-ratio: 1/1;
+    position: absolute;
+  }
+  .abstracts__abstract figure {
+    position: fixed;
   }
 }
 

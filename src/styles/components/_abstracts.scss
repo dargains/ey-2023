@@ -1,19 +1,43 @@
 .abstracts {
   height: 288px;
   display: flex;
-
+  overflow: hidden;
   &__abstract {
     width: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     height: 100%;
+    overflow: hidden;
+    clip: rect(0, auto, auto, 0);
+    figure {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0;
+    }
+    &:first-of-type {
+      left: 0;
+      figure {
+        background-image: url('../assets/images/abstract1.jpg');
+      }
+    }
+    &:last-of-type {
+      right: 0;
+      figure {
+        background-image: url('../assets/images/abstract2.jpg')
+      }
+    }
   }
   @include mobile {
     height: auto;
+    aspect-ratio: 2/1;
     &__abstract {
       aspect-ratio: 1/1;
+      position: absolute;
+      figure {
+        position: fixed;
+      }
     }
   }
 }
