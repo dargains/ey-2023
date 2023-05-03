@@ -1386,10 +1386,11 @@ createApp({
   },
   mounted() {
     const isMobile = window.innerWidth <= 1024;
+    const isTablet = window.innerWidth <= 1440;
     this.$el.classList.remove("hiddenPage")
     this.groups.forEach(({ id }) => {
       new Swiper('.swiper-' + id, {
-        slidesPerView: isMobile ? 'auto' : 4,
+        slidesPerView: isMobile ? 'auto' : isTablet ? 3 : 4,
         slidesPerGroup: 1,
         spaceBetween: isMobile ? 0 : 8,
         centeredSlides: isMobile,
