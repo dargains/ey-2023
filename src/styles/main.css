@@ -424,16 +424,10 @@ table {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: scroll;
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
+  background-attachment: fixed;
   height: 100%;
-  transform: translateZ(0);
-  will-change: transform;
-  z-index: 1;
+  width: 100%;
+  top: 0;
 }
 .abstracts__abstract:first-of-type {
   left: 0;
@@ -457,7 +451,16 @@ table {
     position: absolute;
   }
   .abstracts__abstract figure {
+    background-attachment: scroll;
     position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: 1;
   }
 }
 
