@@ -222,7 +222,7 @@ createApp({
       } else if (result > firstThreshold && result <= secondThreshold) {
         level = "média"
       } else {
-        level = "elevado"
+        level = "elevada"
       }
       window.location.href = 'resultado.html?result=' + encodeURIComponent(level)
     },

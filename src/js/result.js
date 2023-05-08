@@ -237,7 +237,7 @@ createApp({
           }
         },
         {
-          level: "elevado",
+          level: "elevada",
           hero: {
             topText: "Após a superação dos principais desafios iniciais ao desenvolvimento do seu produto/serviço, a sua start-up encontra-se pronta para dar o próximo passo: escalar para o nível seguinte. Deve explorar os seguintes atributos:",
             bullets: [
