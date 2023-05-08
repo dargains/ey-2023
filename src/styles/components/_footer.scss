@@ -21,6 +21,14 @@
     gap: 32px;
   }
 
+  &__leftContainer {
+    a {
+      display: inline-block;
+      margin-top: 8px;
+      text-decoration: underline;
+    }
+  }
+
   &__rightContainer {
     min-width: 180px;
     display: flex;

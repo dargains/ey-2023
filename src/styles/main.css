@@ -303,6 +303,11 @@ table {
   align-items: center;
   gap: 32px;
 }
+.footer__leftContainer a {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: underline;
+}
 .footer__rightContainer {
   min-width: 180px;
   display: flex;
