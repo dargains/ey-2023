@@ -217,9 +217,8 @@ createApp({
               "IAPMEI",
             ],
             courses: [
-              "Entrepreneurial Strategic Management",
               "Marketing in a Digital World",
-              "Social Entrepreneurship",
+              // "Social Entrepreneurship",
               "Entrepreneurship: Raising Startup Capital",
               "Entrepreneurship: Bootstrapping Your Business",
               "New Enterprises",
@@ -327,10 +326,11 @@ createApp({
               "IAPMEI",
             ],
             courses: [
-              "Scaling Up Your Venture Without Screwing Up",
-              "Technology Entrepreneurship",
+              // "Scaling Up Your Venture Without Screwing Up",
+              // "Technology Entrepreneurship",
+              "Entrepreneurial Strategic Management",
+              "Strategic Innovation: Managing Innovation Initiatives",
               "New Venture Finance: Startup Funding for Entrepreneurs",
-              "Technology Entrepreneurship",
               "Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies",
               "Strategic Innovation: Managing Innovation Initiatives",
               "The Carlson-Polizzotto Method of Value Creation",
@@ -349,7 +349,7 @@ createApp({
         {
           id: "books",
           label: "Livros",
-          description: "Inspire-se nas histórias fascinantes que permitiram aos empreendedores alcançar o sucessoperiências",
+          description: "Inspire-se nas histórias fascinantes que permitiram aos empreendedores alcançar o sucesso",
           image: "assets/images/content_books.jpg"
         },
         {
@@ -1197,7 +1197,13 @@ createApp({
             author: "Startup Class",
             url: "http://startupclass.samaltman.com/",
             image: ""
-          }
+          },
+          {
+            title: "Incubadoras Certificadas",
+            author: "",
+            url: "https://www.iapmei.pt/getattachment/Paginas/StartUP-Visa-pt/StartUP-Visa_Incubadoras-Certificadas_PUB_2021_03marco.pdf.aspx?lang=pt-PT",
+            image: ""
+          },
         ],
         courses: [
           {

@@ -133,6 +133,10 @@ q {
   quotes: none;
 }
 
+i {
+  font-style: italic;
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -695,8 +699,7 @@ table {
   font-weight: bold;
   width: 50%;
 }
-.hero__subtitle em {
-  font-style: italic;
+.hero__subtitle i {
   font-weight: normal;
 }
 .hero__logos {
