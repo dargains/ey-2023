@@ -7,17 +7,17 @@ createApp({
         {
           title: 'Qual o estágio de desenvolvimento do produto/serviço?',
           answers: [
-            'Não existe, é ainda uma ideia',
-            'Existe, mas encontra-se ainda em desenvolvimento',
-            'Pronto a ser comercializado'
+            'Encontra-se em fase preliminar',
+            'Encontra-se em fase de desenvolvimento',
+            'Está pronto a ser comercializado'
           ],
           answered: null
         },
         {
           title: 'Qual o nível de maturidade do produto/serviço?',
           answers: [
-            'O produto/serviço ainda não se encontra validado ou ainda é um Minimum Viable Product (MVP)',
-            'Foi validado e é um Minimum Viable Product (MVP)',
+            'Ainda não existe um Minimum Viable Product (MVP)',
+            'Já existe um Minimum Viable Product (MVP) mas ainda não foi testado no mercado',
             'Encontra-se em beta tests/pronto e está pronto a ser comercializado/em comercialização'
           ],
           answered: null
@@ -45,7 +45,7 @@ createApp({
           answers: [
             'Inexistente, é a primeira experiência empreendedora',
             'Detêm algum nível de experiência empreendedora prévia',
-            'Detêm uma sólida experiência empreendedora'
+            'Detêm uma experiência empreendedora mais solidificada'
           ],
           answered: null
         },
@@ -53,22 +53,22 @@ createApp({
           title: 'Quão diversificada é a equipa de gestão?',
           answers: [
             'Equipa com apenas 1 área de expertise',
-            'Equipa com experiência em 2 áreas de expertise: técnica e de negócio, ou outra área de expertise',
-            'Equipa composta por elementos com experiência técnica, de negócio e marketing (3 áreas de expertise, pelo menos)'
+            'Equipa com experiência em 2 áreas de expertise',
+            'Equipa composta por elementos com 3 áreas de expertise, pelo menos'
           ],
           answered: null
         },
         {
           title: 'Qual a atual maturidade estratégica da start-up?',
           answers: [
-            'Não existe ainda uma estratégia quanto ao desenvolvimento do produto/serviço',
-            'Existe, pelo menos, uma visão e missão ou estratégia definidas',
+            'Não existe ainda uma estratégia',
+            'Existe uma visão, missão e plano estratégico definidos',
             'Existe uma visão, missão e plano estratégico bem definidos e em implementação'
           ],
           answered: null
         },
         {
-          title: 'Qual o nível de entrosamento e funcionamento da equipa de projeto?',
+          title: 'Qual o nível de alinhamento e funcionamento da equipa de projeto?',
           answers: [
             'A equipa ainda não está formada. Tem apenas 1 elemento',
             'A equipa está motivada e partilha a visão e a missão para o desenvolvimento do projeto',
@@ -89,7 +89,7 @@ createApp({
           title: 'Quem são os investidores da start-up?',
           answers: [
             'São os empreendedores, exclusivamente com recursos próprios ou de amigos/familiares',
-            'Business angels e/ou projetos financiados',
+            'Business angels e/ou financiamento público',
             'Venture capitalists'
           ],
           answered: null
@@ -97,7 +97,7 @@ createApp({
         {
           title: 'Qual o destino que está a ser dado ao financiamento alcançado?',
           answers: [
-            'Apenas destinado a pequenas despesas correntes',
+            'O capital está apenas destinado a pequenas despesas correntes',
             'O capital está a ser utilizado para responder a necessidades de curto prazo e de desenvolvimento do produto/serviço',
             'O capital está a ser utilizado para desenvolver o produto, contratar uma equipa e escalar operações, numa lógica estrutural'
           ],
@@ -107,7 +107,7 @@ createApp({
           title: 'Qual é a sua capacidade de financiamento atual?',
           answers: [
             'Sem capacidade de financiamento, com o capital a esgotar-se em 6 meses',
-            'Capacidade de financiamento de 6-12 meses',
+            'Capacidade de financiamento de 6-11 meses',
             'Capacidade para financiar o projeto durante 1 ou mais anos'
           ],
           answered: null
@@ -115,9 +115,9 @@ createApp({
         {
           title: 'Qual o número de clientes que possui atualmente?',
           answers: [
-            'Nenhum',
-            'Alguns clientes de teste',
-            'Vários, já estabelecidos, com perspetivas de crescimento em valor e em volume'
+            'Nenhum/ apenas clientes de teste',
+            'Alguns clientes',
+            'Vários clientes já estabelecidos com perspetivas de crescimento em valor e/ou em volume'
           ],
           answered: null
         },
@@ -142,7 +142,7 @@ createApp({
         {
           title: 'Qual o grau de penetração de mercado do produto ou serviço?',
           answers: [
-            'Os produtos/serviços ainda não existem e também não estão no mercado',
+            'Produto/serviço ainda não existe, pelo que não está no mercado',
             'Produto/serviço lançado ainda numa lógica de experimentação e desenvolvimento',
             'Produto/serviço com vendas de acordo com o definido no plano de negócios'
           ],
@@ -151,8 +151,8 @@ createApp({
         {
           title: 'O modelo de negócio da empresa encontra-se definido?',
           answers: [
-            'Iniciado, mas não estabilizado',
-            'Definido, mas com possibilidade de alterações',
+            'Iniciado',
+            'Definido mas não estabilizado',
             'Definido e estabilizado'
           ],
           answered: null
@@ -180,7 +180,7 @@ createApp({
           answers: [
             'Não existem KPIs definidos',
             'Existem alguns KPIs definidos',
-            'Os KPIs definidos refletem totalmente a visão e missão delineados para a start-up'
+            'Os KPIs definidos refletem a visão e missão delineados para a start-up'
           ],
           answered: null
         },
