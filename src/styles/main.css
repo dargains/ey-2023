@@ -696,11 +696,7 @@ table {
 .hero__subtitle {
   font-size: 72px;
   line-height: 80px;
-  font-weight: bold;
   width: 50%;
-}
-.hero__subtitle i {
-  font-weight: normal;
 }
 .hero__logos {
   display: flex;
